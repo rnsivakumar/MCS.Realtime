@@ -1,0 +1,957 @@
+2017-08-31T21:07:37.8863188+08:00 0HL7GE50C6KH7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T21:07:41.0030731+08:00 0HL7GE50C6KH7:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T21:07:50.1518283+08:00 0HL7GE50C6KH7:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T21:07:51.6373470+08:00 0HL7GE50C6KH7:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 10634.3643ms (afa2e885)
+2017-08-31T21:07:51.7235123+08:00 0HL7GE50C6KH7:00000001 [INF] Request finished in 13919.6321ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T21:07:52.8377428+08:00 0HL7GE50C6KH7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/vendor.css?v=wM1v5jqNvtBBbg_fpIAaeOPJcw6LtdplAZa9hQf01jM   (ca22a1cb)
+2017-08-31T21:07:52.9442795+08:00 0HL7GE50C6KH8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/vendor.js?v=tsefw37tGm5nylRQYuAVOxnhbSiIrV6uFeTGGkiPsXM   (ca22a1cb)
+2017-08-31T21:07:52.9873167+08:00 0HL7GE50C6KHA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/lib/signalr/jquery.signalR.min.js   (ca22a1cb)
+2017-08-31T21:07:53.0045980+08:00 0HL7GE50C6KHB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/hubs   (ca22a1cb)
+2017-08-31T21:07:53.0245459+08:00 0HL7GE50C6KH9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/lib/jquery/dist/jquery.min.js   (ca22a1cb)
+2017-08-31T21:07:53.0485365+08:00 0HL7GE50C6KHB:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T21:07:53.0664439+08:00 0HL7GE50C6KHB:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T21:07:53.0867289+08:00 0HL7GE50C6KHA:00000001 [INF] Sending file. Request path: '"/lib/signalr/jquery.signalR.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\signalr\jquery.signalR.min.js"' (27b0a520)
+2017-08-31T21:07:53.1207885+08:00 0HL7GE50C6KHB:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 45.969ms (afa2e885)
+2017-08-31T21:07:53.1408020+08:00 0HL7GE50C6KH9:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\jquery\dist\jquery.min.js"' (27b0a520)
+2017-08-31T21:07:53.1535620+08:00 0HL7GE50C6KHB:00000001 [INF] Request finished in 130.5426ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T21:07:53.1858102+08:00 0HL7GE50C6KHA:00000001 [INF] Request finished in 137.3779ms 200 application/javascript (791a596a)
+2017-08-31T21:07:53.2036706+08:00 0HL7GE50C6KHC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=3sQrTQYZejPHspYPAK-2qgcAJIoYfR5ThZFkyhSJsb4   (ca22a1cb)
+2017-08-31T21:07:53.2160608+08:00 0HL7GE50C6KH9:00000001 [INF] Request finished in 205.7692ms 200 application/javascript (791a596a)
+2017-08-31T21:08:01.1866222+08:00  [INF] webpack built 28968b9d73dcd26cd323 in 25131ms (f877e3c6)
+2017-08-31T21:08:01.8676429+08:00 0HL7GE50C6KH7:00000002 [INF] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.css"' (27b0a520)
+2017-08-31T21:08:02.2096761+08:00 0HL7GE50C6KH8:00000001 [INF] Sending file. Request path: '"/dist/vendor.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.js"' (27b0a520)
+2017-08-31T21:08:02.3411104+08:00 0HL7GE50C6KHC:00000001 [INF] Request finished in 8923.8971ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T21:08:02.6264304+08:00  [ERR] Hash: 28968b9d73dcd26cd323
+Version: webpack 2.5.1
+Time: 25131ms
+                               Asset     Size  Chunks                    Chunk Names
+e10af218b941826ea360d7554688d721.png  32.6 kB          [emitted]         
+                      main-client.js  1.51 MB       0  [emitted]  [big]  main-client
+                  main-client.js.map  1.89 MB       0  [emitted]         main-client
+chunk    {0} main-client.js, main-client.js.map (main-client) 1.47 MB [entry] [rendered]
+    [0] delegated ./node_modules/@angular/core/@angular/core.es5.js from dll-reference vendor_be2a326321f1d1058a28 42 bytes {0} [not cacheable] [built]
+    [1] external "vendor_be2a326321f1d1058a28" 42 bytes {0} [not cacheable]
+   [54] delegated ./node_modules/webpack/buildin/module.js from dll-reference vendor_be2a326321f1d1058a28 42 bytes {0} [not cacheable] [built]
+   [57] ./ClientApp/boot-client.ts 940 bytes {0} [built]
+   [58] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 6.68 kB {0} [built]
+   [59] delegated ./node_modules/event-source-polyfill/eventsource.js from dll-reference vendor_be2a326321f1d1058a28 42 bytes {0} [not cacheable] [built]
+   [71] ./ClientApp/app/app.module.ts 8.61 kB {0} [built]
+  [139] ./~/querystring-es3/index.js 127 bytes {0} [built]
+  [162] ./~/strip-ansi/index.js 161 bytes {0} [built]
+  [187] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0} [built]
+  [188] (webpack)-hot-middleware/process-update.js 3.88 kB {0} [built]
+  [196] delegated ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js from dll-reference vendor_be2a326321f1d1058a28 42 bytes {0} [not cacheable] [built]
+  [198] delegated ./node_modules/core-js/client/shim.js from dll-reference vendor_be2a326321f1d1058a28 42 bytes {0} [not cacheable] [built]
+  [199] delegated ./node_modules/zone.js/dist/zone.js from dll-reference vendor_be2a326321f1d1058a28 42 bytes {0} [not cacheable] [built]
+  [210] multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts 52 bytes {0} [built]
+     + 196 hidden modules
+
+ERROR in ./ClientApp/boot-client.ts
+Module not found: Error: Can't resolve 'web-animations-js' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp'
+ @ ./ClientApp/boot-client.ts 7:0-28
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve 'ng2-toasty' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 20:19-40
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve 'ng2-charts' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 26:19-40
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve 'angular2-datatable' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 27:27-56
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve '@ngx-translate/core' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 18:13-43
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve '@swimlane/ngx-datatable' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 19:22-56
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve 'ngx-bootstrap/modal' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 21:14-44
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve 'ngx-bootstrap/tooltip' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 22:16-48
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve 'ngx-bootstrap/popover' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 23:16-48
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve 'ngx-bootstrap/dropdown' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 24:17-50
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/app.module.ts
+Module not found: Error: Can't resolve 'ngx-bootstrap/carousel' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app'
+ @ ./ClientApp/app/app.module.ts 25:17-50
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/services/app-translation.service.ts
+Module not found: Error: Can't resolve '@ngx-translate/core' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\services'
+ @ ./ClientApp/app/services/app-translation.service.ts 13:13-43
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/directives/bootstrap-toggle.directive.ts
+Module not found: Error: Can't resolve 'bootstrap-toggle/js/bootstrap-toggle' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\directives'
+ @ ./ClientApp/app/directives/bootstrap-toggle.directive.ts 19:0-47
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/directives/bootstrap-select.directive.ts
+Module not found: Error: Can't resolve 'bootstrap-select/dist/js/bootstrap-select' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\directives'
+ @ ./ClientApp/app/directives/bootstrap-select.directive.ts 17:0-52
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/directives/bootstrap-datepicker.directive.ts
+Module not found: Error: Can't resolve 'bootstrap-datepicker/dist/js/bootstrap-datepicker' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\directives'
+ @ ./ClientApp/app/directives/bootstrap-datepicker.directive.ts 19:0-60
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/components/app.component.ts
+Module not found: Error: Can't resolve 'ng2-toasty' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\components'
+ @ ./ClientApp/app/components/app.component.ts 17:19-40
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/components/controls/todo-demo.component.ts
+Module not found: Error: Can't resolve 'ngx-bootstrap/modal' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\components\controls'
+ @ ./ClientApp/app/components/controls/todo-demo.component.ts 16:14-44
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/components/controls/statistics-demo.component.ts
+Module not found: Error: Can't resolve 'chart.js' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\components\controls'
+ @ ./ClientApp/app/components/controls/statistics-demo.component.ts 17:0-19
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/components/controls/roles-management.component.ts
+Module not found: Error: Can't resolve 'ngx-bootstrap/modal' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\components\controls'
+ @ ./ClientApp/app/components/controls/roles-management.component.ts 16:14-44
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in ./ClientApp/app/components/controls/users-management.component.ts
+Module not found: Error: Can't resolve 'ngx-bootstrap/modal' in 'E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\ClientApp\app\components\controls'
+ @ ./ClientApp/app/components/controls/users-management.component.ts 16:14-44
+ @ ./ClientApp/app/app.module.ts
+ @ ./ClientApp/boot-client.ts
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts
+
+ERROR in [at-loader] TS2688: Cannot find type definition file for 'node'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:17:50 
+    TS2307: Cannot find module '@ngx-translate/core'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:18:36 
+    TS2307: Cannot find module '@swimlane/ngx-datatable'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:19:30 
+    TS2307: Cannot find module 'ng2-toasty'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:20:29 
+    TS2307: Cannot find module 'ngx-bootstrap/modal'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:21:31 
+    TS2307: Cannot find module 'ngx-bootstrap/tooltip'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:22:31 
+    TS2307: Cannot find module 'ngx-bootstrap/popover'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:23:34 
+    TS2307: Cannot find module 'ngx-bootstrap/dropdown'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:24:32 
+    TS2307: Cannot find module 'ngx-bootstrap/carousel'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:25:30 
+    TS2307: Cannot find module 'ng2-charts'.
+
+ERROR in [at-loader] ./ClientApp/app/app.module.ts:26:33 
+    TS2307: Cannot find module 'angular2-datatable'.
+
+ERROR in [at-loader] ./ClientApp/app/components/about/about.component.ts:14:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/about/about.component.ts:15:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.ts:11:70 
+    TS2307: Cannot find module 'ng2-toasty'.
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.ts:12:32 
+    TS2307: Cannot find module 'ngx-bootstrap/modal'.
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.ts:27:16 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.ts:32:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.ts:33:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.ts:33:46 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.ts:33:72 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.ts:45:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/banner-demo.component.ts:15:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/banner-demo.component.ts:18:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/banner-demo.component.ts:19:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/banner-demo.component.ts:20:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/banner-demo.component.ts:21:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/notifications-viewer.component.ts:22:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/notifications-viewer.component.ts:23:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/role-editor.component.ts:19:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/role-editor.component.ts:20:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/roles-management.component.ts:10:32 
+    TS2307: Cannot find module 'ngx-bootstrap/modal'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/roles-management.component.ts:23:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/roles-management.component.ts:24:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/search-box.component.ts:13:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/search-box.component.ts:14:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/statistics-demo.component.ts:11:1 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/statistics-demo.component.ts:17:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/statistics-demo.component.ts:18:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/todo-demo.component.ts:10:32 
+    TS2307: Cannot find module 'ngx-bootstrap/modal'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/todo-demo.component.ts:21:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/todo-demo.component.ts:22:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/user-info.component.ts:22:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/user-info.component.ts:23:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/user-preferences.component.ts:22:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/user-preferences.component.ts:23:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/users-management.component.ts:10:32 
+    TS2307: Cannot find module 'ngx-bootstrap/modal'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/users-management.component.ts:25:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/controls/users-management.component.ts:26:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/eventhistory/eventhistory.component.ts:19:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/eventhistory/eventhistory.component.ts:20:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/home/home.component.ts:18:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/home/home.component.ts:19:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/login/login.component.ts:20:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/login/login.component.ts:21:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/not-found/not-found.component.ts:14:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/not-found/not-found.component.ts:15:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/settings/settings.component.ts:22:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/settings/settings.component.ts:23:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/systemmap/systemmap.component.ts:20:15 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/components/systemmap/systemmap.component.ts:21:14 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/directives/bootstrap-tab.directive.ts:38:28 
+    TS2304: Cannot find name 'JQueryEventObject'.
+
+ERROR in [at-loader] ./ClientApp/app/directives/bootstrap-tab.directive.ts:43:28 
+    TS2304: Cannot find name 'JQueryEventObject'.
+
+ERROR in [at-loader] ./ClientApp/app/services/app-translation.service.ts:2:51 
+    TS2307: Cannot find module '@ngx-translate/core'.
+
+ERROR in [at-loader] ./ClientApp/app/services/app-translation.service.ts:96:38 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/services/app-translation.service.ts:98:38 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/services/app-translation.service.ts:100:38 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/services/app-translation.service.ts:102:38 
+    TS2304: Cannot find name 'require'.
+
+ERROR in [at-loader] ./ClientApp/app/services/mcs.feed.service.ts:46:9 
+    TS2304: Cannot find name '$'.
+
+ERROR in [at-loader] ./ClientApp/app/services/mcs.feed.service.ts:48:39 
+    TS2304: Cannot find name '$'.
+
+ERROR in [at-loader] ./ClientApp/app/services/mcs.feed.service.ts:65:9 
+    TS2304: Cannot find name '$'.
+
+ERROR in [at-loader] ./ClientApp/app/services/mcs.feed.service.ts:74:9 
+    TS2304: Cannot find name '$'.
+
+ERROR in [at-loader] ./ClientApp/boot-client.ts:16:5 
+    TS2304: Cannot find name 'module'.
+
+ERROR in [at-loader] ./ClientApp/boot-client.ts:17:5 
+    TS2304: Cannot find name 'module'.
+
+ERROR in [at-loader] ./ClientApp/boot-client.ts:18:5 
+    TS2304: Cannot find name 'module'.
+
+ERROR in [at-loader] ./typings/globals/signalr/index.d.ts:8:23 
+    TS2688: Cannot find type definition file for 'jquery'.
+
+ERROR in [at-loader] ./typings/globals/signalr/index.d.ts:76:57 
+    TS2304: Cannot find name 'JQueryPromise'.
+
+ERROR in [at-loader] ./typings/globals/signalr/index.d.ts:223:18 
+    TS2304: Cannot find name 'JQueryPromise'.
+
+ERROR in [at-loader] ./typings/globals/signalr/index.d.ts:230:38 
+    TS2304: Cannot find name 'JQueryPromise'.
+
+ERROR in [at-loader] ./typings/globals/signalr/index.d.ts:237:44 
+    TS2304: Cannot find name 'JQueryPromise'.
+
+ERROR in [at-loader] ./typings/globals/signalr/index.d.ts:245:66 
+    TS2304: Cannot find name 'JQueryPromise'. (d9009dbe)
+2017-08-31T21:08:02.6332495+08:00 0HL7GE50C6KH7:00000002 [INF] Request finished in 9619.9ms 200 text/css (791a596a)
+2017-08-31T21:08:02.6776016+08:00 0HL7GE50C6KH8:00000001 [INF] Request finished in 9743.7559ms 200 application/javascript (791a596a)
+2017-08-31T21:08:04.8748180+08:00 0HL7GE50C6KHB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T21:08:04.8899724+08:00 0HL7GE50C6KHA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/favicon.ico   (ca22a1cb)
+2017-08-31T21:08:04.9279970+08:00 0HL7GE50C6KHA:00000002 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\favicon.ico"' (27b0a520)
+2017-08-31T21:08:05.0022153+08:00 0HL7GE50C6KHA:00000002 [INF] Request finished in 115.5265ms 200 image/x-icon (791a596a)
+2017-08-31T21:08:47.5141878+08:00 0HL7GE50C6KH9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T21:08:47.6333691+08:00 0HL7GE50C6KH9:00000002 [INF] Request finished in 113.5981ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:27:42.1772087+08:00 0HL7GFHO7EIVQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:27:44.1516340+08:00 0HL7GFHO7EIVQ:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:27:49.9980030+08:00 0HL7GFHO7EIVQ:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:27:51.8728022+08:00 0HL7GFHO7EIVQ:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 7486.1477ms (afa2e885)
+2017-08-31T22:27:51.9092745+08:00 0HL7GFHO7EIVS:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=e9cM4zvNeQd9tEhAXe49w7ziXFQgyUZmUXCsc_tcfrc   (ca22a1cb)
+2017-08-31T22:27:51.9107892+08:00 0HL7GFHO7EIVQ:00000001 [INF] Request finished in 9784.6941ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:27:52.1220244+08:00 0HL7GFHO7EIVT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/lib/jquery/dist/jquery.min.js   (ca22a1cb)
+2017-08-31T22:27:52.1609518+08:00 0HL7GFHO7EIVU:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/hubs   (ca22a1cb)
+2017-08-31T22:27:52.1861161+08:00 0HL7GFHO7EIVT:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\jquery\dist\jquery.min.js"' (27b0a520)
+2017-08-31T22:27:52.1915637+08:00 0HL7GFHO7EIVU:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:27:52.2014196+08:00 0HL7GFHO7EIVU:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:27:52.2187301+08:00 0HL7GFHO7EIVU:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 21.4973ms (afa2e885)
+2017-08-31T22:27:52.2324451+08:00 0HL7GFHO7EIVU:00000001 [INF] Request finished in 71.0148ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:27:52.4278075+08:00 0HL7GFHO7EIVT:00000001 [INF] Request finished in 299.5731ms 200 application/javascript (791a596a)
+2017-08-31T22:28:04.3599005+08:00  [INF] webpack built e087691fdedbc0bf244b in 23579ms (54c71b9d)
+2017-08-31T22:28:04.8950562+08:00 0HL7GFHO7EIVS:00000001 [INF] Request finished in 13192.1651ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:28:17.6337619+08:00 0HL7GFHO7EIVQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:28:30.8417177+08:00 0HL7GFHO7EIVU:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44361/connect/token application/x-www-form-urlencoded 144 (ca22a1cb)
+2017-08-31T22:28:30.9707876+08:00 0HL7GFHO7EIVU:00000002 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email profile offline_access roles\",
+  \"resource\": \"https://localhost:44361\"
+}". (ebc01284)
+2017-08-31T22:28:30.9905397+08:00 0HL7GFHO7EIVU:00000002 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2017-08-31T22:28:30.9955599+08:00 0HL7GFHO7EIVU:00000002 [INF] The token request was successfully validated. (d7e51e65)
+2017-08-31T22:28:31.0100838+08:00 0HL7GFHO7EIVU:00000002 [DBG] The default token request handling was skipped from user code. (72afae05)
+2017-08-31T22:28:31.0913403+08:00 0HL7GFHO7EIVU:00000002 [INF] Executing action method "MCS.Web.Controllers.AuthorizationController.Exchange (MCS.Web)" with arguments (["{
+  \"username\": \"admin\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email profile offline_access roles\",
+  \"resource\": \"https://localhost:44361\"
+}"]) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:28:31.5059083+08:00 0HL7GFHO7EIVU:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-08-31T22:28:32.3327949+08:00 0HL7GFHO7EIVU:00000002 [INF] Executed DbCommand ("166"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ApplicationRoleId], [u].[ConcurrencyStamp], [u].[Configuration], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[IsEnabled], [u].[JobTitle], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2017-08-31T22:28:32.3624988+08:00 0HL7GFHO7EIVU:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ApplicationRoleId], [u].[ConcurrencyStamp], [u].[Configuration], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[IsEnabled], [u].[JobTitle], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2017-08-31T22:28:32.5194970+08:00 0HL7GFHO7EIVU:00000002 [INF] Executed DbCommand ("14"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[Discriminator], [uc].[UserId], [uc].[ApplicationRoleId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[Discriminator] IN (N'ApplicationUserClaim', N'IdentityUserClaim<string>') AND ([uc].[UserId] = @__user_Id_0)" (0723d8ff)
+2017-08-31T22:28:32.6076629+08:00 0HL7GFHO7EIVU:00000002 [INF] Executed DbCommand ("32"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[Discriminator] IN (N'ApplicationUserRole', N'IdentityUserRole<string>') AND ([userRole].[UserId] = @__userId_0)" (0723d8ff)
+2017-08-31T22:28:32.6291141+08:00 0HL7GFHO7EIVU:00000002 [INF] Executing SignInResult with authentication scheme ("ASOS") and the following principal: "System.Security.Claims.ClaimsPrincipal". (f8bf0a82)
+2017-08-31T22:28:32.6734066+08:00 0HL7GFHO7EIVU:00000002 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2017-08-31T22:28:32.6790532+08:00 0HL7GFHO7EIVU:00000002 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2017-08-31T22:28:32.6839778+08:00 0HL7GFHO7EIVU:00000002 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2017-08-31T22:28:32.6886656+08:00 0HL7GFHO7EIVU:00000002 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2017-08-31T22:28:32.8817379+08:00 0HL7GFHO7EIVU:00000002 [INF] Executed DbCommand ("45"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (Size = 450), @p3='?' (Size = 4000), @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [OpenIddictTokens] ([Id], [ApplicationId], [AuthorizationId], [Subject], [Type])
+VALUES (@p0, @p1, @p2, @p3, @p4);" (0723d8ff)
+2017-08-31T22:28:32.9120695+08:00 0HL7GFHO7EIVU:00000002 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2017-08-31T22:28:32.9408430+08:00 0HL7GFHO7EIVU:00000002 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2017-08-31T22:28:33.0020746+08:00 0HL7GFHO7EIVU:00000002 [INF] Executed action "MCS.Web.Controllers.AuthorizationController.Exchange (MCS.Web)" in 1918.0325ms (afa2e885)
+2017-08-31T22:28:33.0225491+08:00 0HL7GFHO7EIVU:00000002 [INF] Request finished in 2172.1651ms 200 application/json;charset=UTF-8 (791a596a)
+2017-08-31T22:28:39.1243345+08:00 0HL7GFHO7EIVT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:28:39.1309767+08:00 0HL7GFHO7EIVT:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:28:39.1368037+08:00 0HL7GFHO7EIVT:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:28:39.2253510+08:00 0HL7GFHO7EIVT:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 91.6259ms (afa2e885)
+2017-08-31T22:28:39.2772588+08:00 0HL7GFHO7EIVT:00000002 [INF] Request finished in 107.8173ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:28:39.2856423+08:00 0HL7GFHO7EIVU:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=3sQrTQYZejPHspYPAK-2qgcAJIoYfR5ThZFkyhSJsb4   (ca22a1cb)
+2017-08-31T22:28:39.3048954+08:00 0HL7GFHO7EIVS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/hubs   (ca22a1cb)
+2017-08-31T22:28:39.3674684+08:00 0HL7GFHO7EIVS:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:28:39.3889009+08:00 0HL7GFHO7EIVS:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:28:39.4409995+08:00 0HL7GFHO7EIVS:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 84.1879ms (afa2e885)
+2017-08-31T22:28:39.4832038+08:00 0HL7GFHO7EIVS:00000002 [INF] Request finished in 217.1233ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:28:39.6114072+08:00 0HL7GFHO7EIVU:00000003 [INF] Request finished in 348.973ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:28:40.8489446+08:00 0HL7GFHO7EIVQ:00000002 [INF] Request finished in 23212.3787ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:28:44.4906087+08:00 0HL7GFHO7EIVT:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:28:49.4784557+08:00 0HL7GFHO7EIVS:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/api/mcs/eventhistory/all/301   (ca22a1cb)
+2017-08-31T22:28:49.4999897+08:00 0HL7GFHO7EIVS:00000003 [INF] Executing action method "MCS.Web.Controllers.MCSController.GetEventHistory (MCS.Web)" with arguments (["0"]) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:28:49.5200201+08:00 0HL7GFHO7EIVS:00000003 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-08-31T22:28:49.6644295+08:00 0HL7GFHO7EIVS:00000003 [INF] Executed DbCommand ("115"ms) [Parameters=["@p0='?', @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""exec sp_GetEventHistory @stationId = @p0, @deviceNo = @p1" (0723d8ff)
+2017-08-31T22:28:49.7500622+08:00 0HL7GFHO7EIVS:00000003 [INF] Executing JsonResult, writing value "System.Collections.Generic.List`1[MCS.Web.ViewModels.EventHistoryViewModel]". (7bb75e80)
+2017-08-31T22:28:49.7652087+08:00 0HL7GFHO7EIVS:00000003 [INF] Executed action "MCS.Web.Controllers.MCSController.GetEventHistory (MCS.Web)" in 272.7288ms (afa2e885)
+2017-08-31T22:28:49.7771200+08:00 0HL7GFHO7EIVS:00000003 [INF] Request finished in 303.2597ms 200 application/json; charset=utf-8 (791a596a)
+2017-08-31T22:29:01.4773333+08:00 0HL7GFHO7EIVU:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44361/api/mcs/systemmap/all   (ca22a1cb)
+2017-08-31T22:29:01.4868253+08:00 0HL7GFHO7EIVU:00000004 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:29:01.4946573+08:00 0HL7GFHO7EIVU:00000004 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:29:01.5029018+08:00 0HL7GFHO7EIVU:00000004 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 17.1324ms (afa2e885)
+2017-08-31T22:29:01.5172338+08:00 0HL7GFHO7EIVU:00000004 [INF] Request finished in 37.5236ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:29:06.4971621+08:00 0HL7GFHO7EIVS:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44361/api/mcs/systemmap/all   (ca22a1cb)
+2017-08-31T22:29:06.5065181+08:00 0HL7GFHO7EIVS:00000004 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:29:06.5123894+08:00 0HL7GFHO7EIVS:00000004 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:29:06.5211084+08:00 0HL7GFHO7EIVS:00000004 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 15.313ms (afa2e885)
+2017-08-31T22:29:06.5298874+08:00 0HL7GFHO7EIVS:00000004 [INF] Request finished in 33.7095ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:29:11.4537056+08:00 0HL7GFHO7EIVU:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44361/api/mcs/eventhistory/all/301   (ca22a1cb)
+2017-08-31T22:29:11.4653465+08:00 0HL7GFHO7EIVU:00000005 [INF] Executing action method "MCS.Web.Controllers.MCSController.GetEventHistory (MCS.Web)" with arguments (["0"]) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:29:11.4728785+08:00 0HL7GFHO7EIVU:00000005 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-08-31T22:29:11.4929757+08:00 0HL7GFHO7EIVU:00000005 [INF] Executed DbCommand ("10"ms) [Parameters=["@p0='?', @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""exec sp_GetEventHistory @stationId = @p0, @deviceNo = @p1" (0723d8ff)
+2017-08-31T22:29:11.5029602+08:00 0HL7GFHO7EIVU:00000005 [INF] Executing JsonResult, writing value "System.Collections.Generic.List`1[MCS.Web.ViewModels.EventHistoryViewModel]". (7bb75e80)
+2017-08-31T22:29:11.5086628+08:00 0HL7GFHO7EIVU:00000005 [INF] Executed action "MCS.Web.Controllers.MCSController.GetEventHistory (MCS.Web)" in 48.6167ms (afa2e885)
+2017-08-31T22:29:11.5159769+08:00 0HL7GFHO7EIVU:00000005 [INF] Request finished in 62.3693ms 200 application/json; charset=utf-8 (791a596a)
+2017-08-31T22:29:15.6778291+08:00 0HL7GFHO7EIVS:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:29:15.9996840+08:00 0HL7GFHO7EIVS:00000005 [INF] Request finished in 297.6897ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:29:32.2829026+08:00 0HL7GFHO7EIVU:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44361/eventhistory   (ca22a1cb)
+2017-08-31T22:29:32.3842472+08:00 0HL7GFHO7EIVU:00000006 [INF] Request finished in 103.9238ms 400  (791a596a)
+2017-08-31T22:29:40.7971255+08:00 0HL7GFHO7EIVT:00000003 [INF] Request finished in 56301.9732ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:29:41.0189149+08:00 0HL7GFHO7EIVS:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44361/eventhistory   (ca22a1cb)
+2017-08-31T22:29:41.0295300+08:00 0HL7GFHO7EIVS:00000006 [INF] Request finished in 11.3532ms 400  (791a596a)
+2017-08-31T22:30:09.4999514+08:00 0HL7GFHO7EIVU:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:30:09.5084039+08:00 0HL7GFHO7EIVU:00000007 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:30:09.5160074+08:00 0HL7GFHO7EIVU:00000007 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:30:09.5308747+08:00 0HL7GFHO7EIVU:00000007 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 16.2312ms (afa2e885)
+2017-08-31T22:30:09.5599794+08:00 0HL7GFHO7EIVS:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/hubs   (ca22a1cb)
+2017-08-31T22:30:09.5657630+08:00 0HL7GFHO7EIVU:00000007 [INF] Request finished in 38.2425ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:30:09.5803240+08:00 0HL7GFHO7EIVU:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=3sQrTQYZejPHspYPAK-2qgcAJIoYfR5ThZFkyhSJsb4   (ca22a1cb)
+2017-08-31T22:30:09.5921576+08:00 0HL7GFHO7EIVS:00000007 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:30:09.6042739+08:00 0HL7GFHO7EIVS:00000007 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:30:09.6651211+08:00 0HL7GFHO7EIVS:00000007 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 41.5284ms (afa2e885)
+2017-08-31T22:30:09.6842771+08:00 0HL7GFHO7EIVS:00000007 [INF] Request finished in 116.3701ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:30:09.8288467+08:00 0HL7GFHO7EIVU:00000008 [INF] Request finished in 247.2393ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:30:28.2929011+08:00 0HL7GFHO7EIVS:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:39:26.1128928+08:00  [INF] webpack building... (478286db)
+2017-08-31T22:39:30.0996574+08:00 0HL7GFHO7EIVV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:39:30.1154162+08:00 0HL7GFHO7EIVV:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:39:30.1230161+08:00 0HL7GFHO7EIVV:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:39:30.2009589+08:00 0HL7GFHO7EIVV:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 23.1217ms (afa2e885)
+2017-08-31T22:39:30.2387546+08:00 0HL7GFHO7EJ01:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/lib/jquery/dist/jquery.min.js   (ca22a1cb)
+2017-08-31T22:39:30.2660516+08:00 0HL7GFHO7EJ00:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=3sQrTQYZejPHspYPAK-2qgcAJIoYfR5ThZFkyhSJsb4   (ca22a1cb)
+2017-08-31T22:39:30.3104674+08:00 0HL7GFHO7EJ01:00000001 [INF] The file "/lib/jquery/dist/jquery.min.js" was not modified (f1f8d725)
+2017-08-31T22:39:30.3255266+08:00 0HL7GFHO7EJ02:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/hubs   (ca22a1cb)
+2017-08-31T22:39:30.3681450+08:00 0HL7GFHO7EJ01:00000001 [INF] Request finished in 133.5476ms 304 application/javascript (791a596a)
+2017-08-31T22:39:30.3821320+08:00 0HL7GFHO7EJ02:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:39:30.4045013+08:00 0HL7GFHO7EJ02:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:39:30.4142049+08:00 0HL7GFHO7EJ02:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 78.0806ms (afa2e885)
+2017-08-31T22:39:30.6814459+08:00 0HL7GFHO7EJ02:00000001 [INF] Request finished in 161.5442ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:39:30.8006516+08:00 0HL7GFHO7EIVV:00000001 [INF] Request finished in 118.6155ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:39:30.9471760+08:00 0HL7GFHO7EIVS:00000008 [INF] Request finished in 542561.1169ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:39:35.1292185+08:00  [INF] webpack built 1e573170230cbedf4abb in 8989ms (95a1fe23)
+2017-08-31T22:39:35.3204433+08:00 0HL7GFHO7EJ00:00000001 [INF] Request finished in 5121.6038ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:39:35.4726433+08:00  [INF] webpack building... (478286db)
+2017-08-31T22:39:36.2937202+08:00  [INF] webpack built 1e573170230cbedf4abb in 828ms (d39a29fa)
+2017-08-31T22:39:38.4789708+08:00 0HL7GFHO7EIVV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:39:38.7031283+08:00 0HL7GFHO7EIVV:00000002 [INF] Request finished in 227.051ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:39:41.2329875+08:00 0HL7GFHO7EJ01:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:43:11.7618276+08:00 0HL7GFHO7EJ03:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:43:11.7716124+08:00 0HL7GFHO7EJ03:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:43:11.9957048+08:00 0HL7GFHO7EJ03:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:43:12.0963676+08:00 0HL7GFHO7EJ03:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 318.0935ms (afa2e885)
+2017-08-31T22:43:12.2031305+08:00 0HL7GFHO7EJ03:00000001 [INF] Request finished in 348.4867ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:43:12.2088983+08:00 0HL7GFHO7EJ04:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=zkjqYg_ANOQpjf03eexHZD6Mf43JkJMcEftq59YwdLI   (ca22a1cb)
+2017-08-31T22:43:12.2473686+08:00 0HL7GFHO7EJ03:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/js   (ca22a1cb)
+2017-08-31T22:43:12.2814207+08:00 0HL7GFHO7EJ03:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:43:12.3155542+08:00 0HL7GFHO7EJ03:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:43:12.3321969+08:00 0HL7GFHO7EJ03:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 68.4876ms (afa2e885)
+2017-08-31T22:43:12.3479662+08:00 0HL7GFHO7EJ03:00000002 [INF] Request finished in 117.5461ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:43:12.4875058+08:00 0HL7GFHO7EJ04:00000001 [INF] Request finished in 251.0246ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:43:15.6763693+08:00 0HL7GFHO7EJ03:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:43:15.8874493+08:00 0HL7GFHO7EJ03:00000003 [INF] Request finished in 216.6428ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:43:17.5435093+08:00 0HL7GFHO7EJ04:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:43:17.6618497+08:00 0HL7GFHO7EJ01:00000002 [INF] Request finished in 216406.985ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:43:38.5374727+08:00 0HL7GFHO7EJ03:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:43:38.5437667+08:00 0HL7GFHO7EJ03:00000004 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:43:38.7375026+08:00 0HL7GFHO7EJ03:00000004 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:43:38.7593330+08:00 0HL7GFHO7EJ03:00000004 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 211.8915ms (afa2e885)
+2017-08-31T22:43:38.7801803+08:00 0HL7GFHO7EJ03:00000004 [INF] Request finished in 230.6808ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:43:38.7914356+08:00 0HL7GFHO7EJ05:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/js   (ca22a1cb)
+2017-08-31T22:43:38.8302967+08:00 0HL7GFHO7EJ03:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=zkjqYg_ANOQpjf03eexHZD6Mf43JkJMcEftq59YwdLI   (ca22a1cb)
+2017-08-31T22:43:38.8465993+08:00 0HL7GFHO7EJ05:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:43:38.8682199+08:00 0HL7GFHO7EJ05:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:43:38.9090863+08:00 0HL7GFHO7EJ05:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 74.1093ms (afa2e885)
+2017-08-31T22:43:38.9317805+08:00 0HL7GFHO7EJ05:00000001 [INF] Request finished in 131.6689ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:43:38.9897747+08:00 0HL7GFHO7EJ03:00000005 [INF] Request finished in 183.7086ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:43:40.8339517+08:00 0HL7GFHO7EJ04:00000002 [INF] Request finished in 23310.646ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:43:41.6645242+08:00 0HL7GFHO7EJ05:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:43:41.9630784+08:00 0HL7GFHO7EJ05:00000002 [INF] Request finished in 292.2389ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:43:43.3042401+08:00 0HL7GFHO7EJ03:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:43:43.3968183+08:00 0HL7GFHO7EJ05:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:43:43.4042377+08:00 0HL7GFHO7EJ05:00000003 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:43:43.4175284+08:00 0HL7GFHO7EJ05:00000003 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:43:43.4334924+08:00 0HL7GFHO7EJ05:00000003 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 20.9971ms (afa2e885)
+2017-08-31T22:43:43.4676239+08:00 0HL7GFHO7EJ05:00000003 [INF] Request finished in 48.7592ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:43:43.5026811+08:00 0HL7GFHO7EJ06:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/js   (ca22a1cb)
+2017-08-31T22:43:43.5407756+08:00 0HL7GFHO7EJ05:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=zkjqYg_ANOQpjf03eexHZD6Mf43JkJMcEftq59YwdLI   (ca22a1cb)
+2017-08-31T22:43:43.5662067+08:00 0HL7GFHO7EJ06:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:43:43.5868083+08:00 0HL7GFHO7EJ06:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:43:43.6838235+08:00 0HL7GFHO7EJ06:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 84.3075ms (afa2e885)
+2017-08-31T22:43:43.7216897+08:00 0HL7GFHO7EJ06:00000001 [INF] Request finished in 219.6252ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:43:43.8751849+08:00 0HL7GFHO7EJ05:00000004 [INF] Request finished in 361.6831ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:43:46.5089013+08:00 0HL7GFHO7EJ06:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:43:46.9397187+08:00 0HL7GFHO7EJ06:00000002 [INF] Request finished in 464.0342ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:43:47.9376600+08:00 0HL7GFHO7EJ05:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:43:48.1009921+08:00 0HL7GFHO7EJ03:00000006 [INF] Request finished in 4718.7621ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:43:48.1114911+08:00 0HL7GFHO7EJ06:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:43:48.1275644+08:00 0HL7GFHO7EJ06:00000003 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:43:48.1395288+08:00 0HL7GFHO7EJ06:00000003 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:43:48.1929295+08:00 0HL7GFHO7EJ06:00000003 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 25.3319ms (afa2e885)
+2017-08-31T22:43:48.2411792+08:00 0HL7GFHO7EJ06:00000003 [INF] Request finished in 151.5189ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:43:48.2699677+08:00 0HL7GFHO7EJ07:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/js   (ca22a1cb)
+2017-08-31T22:43:48.2906774+08:00 0HL7GFHO7EJ08:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=zkjqYg_ANOQpjf03eexHZD6Mf43JkJMcEftq59YwdLI   (ca22a1cb)
+2017-08-31T22:43:48.2969316+08:00 0HL7GFHO7EJ07:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:43:48.3103470+08:00 0HL7GFHO7EJ07:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:43:48.5635520+08:00 0HL7GFHO7EJ07:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 40.1207ms (afa2e885)
+2017-08-31T22:43:48.6784713+08:00 0HL7GFHO7EJ07:00000001 [INF] Request finished in 373.4145ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:43:48.7965034+08:00 0HL7GFHO7EJ08:00000001 [INF] Request finished in 570.2433ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:43:50.8222728+08:00 0HL7GFHO7EJ05:00000005 [INF] Request finished in 2885.8089ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:43:51.1387044+08:00 0HL7GFHO7EJ06:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:43:51.4031055+08:00 0HL7GFHO7EJ06:00000004 [INF] Request finished in 286.0748ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:43:53.0836571+08:00 0HL7GFHO7EJ07:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:44:04.4721474+08:00 0HL7GFHO7EJ08:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:44:04.4774999+08:00 0HL7GFHO7EJ08:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:44:04.4846403+08:00 0HL7GFHO7EJ08:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:44:04.4928351+08:00 0HL7GFHO7EJ08:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 12.5465ms (afa2e885)
+2017-08-31T22:44:04.5050311+08:00 0HL7GFHO7EJ08:00000002 [INF] Request finished in 26.2549ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:44:04.5709478+08:00 0HL7GFHO7EJ08:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/vendor.css?v=wM1v5jqNvtBBbg_fpIAaeOPJcw6LtdplAZa9hQf01jM   (ca22a1cb)
+2017-08-31T22:44:04.5784497+08:00 0HL7GFHO7EJ09:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/lib/jquery/dist/jquery.min.js   (ca22a1cb)
+2017-08-31T22:44:04.5870119+08:00 0HL7GFHO7EJ0B:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/js   (ca22a1cb)
+2017-08-31T22:44:04.6022587+08:00 0HL7GFHO7EJ0C:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/lib/signalr/jquery.signalR.min.js   (ca22a1cb)
+2017-08-31T22:44:04.6156070+08:00 0HL7GFHO7EJ06:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/vendor.js?v=tsefw37tGm5nylRQYuAVOxnhbSiIrV6uFeTGGkiPsXM   (ca22a1cb)
+2017-08-31T22:44:04.6306714+08:00 0HL7GFHO7EJ0A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=zkjqYg_ANOQpjf03eexHZD6Mf43JkJMcEftq59YwdLI   (ca22a1cb)
+2017-08-31T22:44:04.6376415+08:00 0HL7GFHO7EJ0B:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:44:04.6732937+08:00 0HL7GFHO7EJ09:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\jquery\dist\jquery.min.js"' (27b0a520)
+2017-08-31T22:44:04.7121457+08:00 0HL7GFHO7EJ08:00000003 [INF] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.css"' (27b0a520)
+2017-08-31T22:44:04.7273064+08:00 0HL7GFHO7EJ0C:00000001 [INF] Sending file. Request path: '"/lib/signalr/jquery.signalR.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\signalr\jquery.signalR.min.js"' (27b0a520)
+2017-08-31T22:44:04.7372539+08:00 0HL7GFHO7EJ0B:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:44:04.7573041+08:00 0HL7GFHO7EJ06:00000005 [INF] Sending file. Request path: '"/dist/vendor.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.js"' (27b0a520)
+2017-08-31T22:44:04.8067988+08:00 0HL7GFHO7EJ0C:00000001 [INF] Request finished in 236.3594ms 200 application/javascript (791a596a)
+2017-08-31T22:44:04.8256274+08:00 0HL7GFHO7EJ09:00000001 [INF] Request finished in 222.0712ms 200 application/javascript (791a596a)
+2017-08-31T22:44:04.8475626+08:00 0HL7GFHO7EJ0B:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 150.3358ms (afa2e885)
+2017-08-31T22:44:05.1010150+08:00 0HL7GFHO7EJ0B:00000001 [INF] Request finished in 335.2383ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:44:05.1330871+08:00 0HL7GFHO7EJ0A:00000001 [INF] Request finished in 591.2294ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:44:05.1865747+08:00 0HL7GFHO7EJ08:00000003 [INF] Request finished in 630.7332ms 200 text/css (791a596a)
+2017-08-31T22:44:05.2341047+08:00 0HL7GFHO7EJ06:00000005 [INF] Request finished in 711.7563ms 200 application/javascript (791a596a)
+2017-08-31T22:44:09.5784291+08:00 0HL7GFHO7EJ0C:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:44:09.9295244+08:00 0HL7GFHO7EJ0C:00000002 [INF] Request finished in 357.0127ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:44:10.8194468+08:00 0HL7GFHO7EJ07:00000002 [INF] Request finished in 17736.555ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:44:12.2316588+08:00 0HL7GFHO7EJ09:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:44:25.6080387+08:00 0HL7GFHO7EJ0B:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44361/connect/token application/x-www-form-urlencoded 144 (ca22a1cb)
+2017-08-31T22:44:25.6260243+08:00 0HL7GFHO7EJ0B:00000002 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email profile offline_access roles\",
+  \"resource\": \"https://localhost:44361\"
+}". (ebc01284)
+2017-08-31T22:44:25.6378417+08:00 0HL7GFHO7EJ0B:00000002 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2017-08-31T22:44:25.6482601+08:00 0HL7GFHO7EJ0B:00000002 [INF] The token request was successfully validated. (d7e51e65)
+2017-08-31T22:44:25.6603488+08:00 0HL7GFHO7EJ0B:00000002 [DBG] The default token request handling was skipped from user code. (72afae05)
+2017-08-31T22:44:25.6829231+08:00 0HL7GFHO7EJ0B:00000002 [INF] Executing action method "MCS.Web.Controllers.AuthorizationController.Exchange (MCS.Web)" with arguments (["{
+  \"username\": \"admin\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email profile offline_access roles\",
+  \"resource\": \"https://localhost:44361\"
+}"]) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:44:25.6932077+08:00 0HL7GFHO7EJ0B:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-08-31T22:44:25.7182040+08:00 0HL7GFHO7EJ0B:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ApplicationRoleId], [u].[ConcurrencyStamp], [u].[Configuration], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[IsEnabled], [u].[JobTitle], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2017-08-31T22:44:25.7357510+08:00 0HL7GFHO7EJ0B:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ApplicationRoleId], [u].[ConcurrencyStamp], [u].[Configuration], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[IsEnabled], [u].[JobTitle], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2017-08-31T22:44:25.7646220+08:00 0HL7GFHO7EJ0B:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[Discriminator], [uc].[UserId], [uc].[ApplicationRoleId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[Discriminator] IN (N'ApplicationUserClaim', N'IdentityUserClaim<string>') AND ([uc].[UserId] = @__user_Id_0)" (0723d8ff)
+2017-08-31T22:44:25.7765998+08:00 0HL7GFHO7EJ0B:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[Discriminator] IN (N'ApplicationUserRole', N'IdentityUserRole<string>') AND ([userRole].[UserId] = @__userId_0)" (0723d8ff)
+2017-08-31T22:44:25.7829175+08:00 0HL7GFHO7EJ0B:00000002 [INF] Executing SignInResult with authentication scheme ("ASOS") and the following principal: "System.Security.Claims.ClaimsPrincipal". (f8bf0a82)
+2017-08-31T22:44:25.7896521+08:00 0HL7GFHO7EJ0B:00000002 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2017-08-31T22:44:25.7948285+08:00 0HL7GFHO7EJ0B:00000002 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2017-08-31T22:44:25.8007511+08:00 0HL7GFHO7EJ0B:00000002 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2017-08-31T22:44:25.8076337+08:00 0HL7GFHO7EJ0B:00000002 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2017-08-31T22:44:25.8191704+08:00 0HL7GFHO7EJ0B:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (Size = 450), @p3='?' (Size = 4000), @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [OpenIddictTokens] ([Id], [ApplicationId], [AuthorizationId], [Subject], [Type])
+VALUES (@p0, @p1, @p2, @p3, @p4);" (0723d8ff)
+2017-08-31T22:44:25.8275815+08:00 0HL7GFHO7EJ0B:00000002 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2017-08-31T22:44:25.8341566+08:00 0HL7GFHO7EJ0B:00000002 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2017-08-31T22:44:25.8465267+08:00 0HL7GFHO7EJ0B:00000002 [INF] Executed action "MCS.Web.Controllers.AuthorizationController.Exchange (MCS.Web)" in 174.2206ms (afa2e885)
+2017-08-31T22:44:25.8560336+08:00 0HL7GFHO7EJ0B:00000002 [INF] Request finished in 246.7092ms 200 application/json;charset=UTF-8 (791a596a)
+2017-08-31T22:46:30.5584078+08:00  [INF] webpack building... (478286db)
+2017-08-31T22:46:33.1681566+08:00 0HL7GFHO7EJ0D:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:46:33.1885245+08:00 0HL7GFHO7EJ0D:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:46:33.4307278+08:00 0HL7GFHO7EJ0D:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:46:33.4541552+08:00 0HL7GFHO7EJ0D:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 275.8877ms (afa2e885)
+2017-08-31T22:46:33.4726654+08:00 0HL7GFHO7EJ0D:00000001 [INF] Request finished in 299.9785ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:46:33.5318289+08:00 0HL7GFHO7EJ0D:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/js   (ca22a1cb)
+2017-08-31T22:46:33.5332306+08:00 0HL7GFHO7EJ0E:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=zkjqYg_ANOQpjf03eexHZD6Mf43JkJMcEftq59YwdLI   (ca22a1cb)
+2017-08-31T22:46:33.5441745+08:00 0HL7GFHO7EJ0D:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:46:33.5526306+08:00 0HL7GFHO7EJ0D:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:46:33.5626598+08:00 0HL7GFHO7EJ0D:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 21.3358ms (afa2e885)
+2017-08-31T22:46:33.5748132+08:00 0HL7GFHO7EJ0D:00000002 [INF] Request finished in 84.9719ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:46:34.2322265+08:00  [INF] webpack built ec3b1da40e55387672c0 in 3606ms (8dc70ba4)
+2017-08-31T22:46:34.3393692+08:00 0HL7GFHO7EJ09:00000002 [INF] Request finished in 142098.7347ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:46:34.5071589+08:00 0HL7GFHO7EJ0E:00000001 [INF] Request finished in 1030.6872ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:46:45.8752434+08:00 0HL7GFHO7EJ0D:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:46:46.0010944+08:00 0HL7GFHO7EJ0E:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:46:46.0085293+08:00 0HL7GFHO7EJ0E:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:46:46.0166462+08:00 0HL7GFHO7EJ0E:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:46:46.1253467+08:00 0HL7GFHO7EJ0E:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 114.8388ms (afa2e885)
+2017-08-31T22:46:46.1439879+08:00 0HL7GFHO7EJ0E:00000002 [INF] Request finished in 131.2458ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:46:46.1712131+08:00 0HL7GFHO7EJ0F:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=aqj1Yg8COUQMpRq-uuAojPvm7rGC_NnORCE8mv1L4r0   (ca22a1cb)
+2017-08-31T22:46:46.1828829+08:00 0HL7GFHO7EJ0E:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/js   (ca22a1cb)
+2017-08-31T22:46:46.2079880+08:00 0HL7GFHO7EJ0E:00000003 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:46:46.2160268+08:00 0HL7GFHO7EJ0E:00000003 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:46:46.2303281+08:00 0HL7GFHO7EJ0E:00000003 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 27.3081ms (afa2e885)
+2017-08-31T22:46:46.2612103+08:00 0HL7GFHO7EJ0E:00000003 [INF] Request finished in 65.6276ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:46:46.3731999+08:00 0HL7GFHO7EJ0F:00000001 [INF] Request finished in 222.0431ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:46:50.3742779+08:00 0HL7GFHO7EJ0E:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:46:50.4115632+08:00 0HL7GFHO7EJ0F:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22hubeventhistory%22%7D%5D&_=1504190806170 application/json; charset=UTF-8  (ca22a1cb)
+2017-08-31T22:46:50.4249132+08:00 0HL7GFHO7EJ0F:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:46:50.4511542+08:00 0HL7GFHO7EJ0D:00000003 [INF] Request finished in 4544.2473ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:46:50.4601117+08:00 0HL7GFHO7EJ0F:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:46:50.4734406+08:00 0HL7GFHO7EJ0F:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 48.7754ms (afa2e885)
+2017-08-31T22:46:50.4833846+08:00 0HL7GFHO7EJ0F:00000002 [INF] Request finished in 73.4833ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:46:52.6379747+08:00 0HL7GFHO7EJ0F:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:46:52.7886695+08:00 0HL7GFHO7EJ0F:00000003 [INF] Request finished in 150.1215ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:47:20.1524882+08:00 0HL7GFHO7EJ0F:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:47:20.1597447+08:00 0HL7GFHO7EJ0F:00000004 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:47:20.3649838+08:00 0HL7GFHO7EJ0F:00000004 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:47:20.3916350+08:00 0HL7GFHO7EJ0F:00000004 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 229.8641ms (afa2e885)
+2017-08-31T22:47:20.4102629+08:00 0HL7GFHO7EJ0F:00000004 [INF] Request finished in 249.6754ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:47:20.4201571+08:00 0HL7GFHO7EJ0G:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=aqj1Yg8COUQMpRq-uuAojPvm7rGC_NnORCE8mv1L4r0   (ca22a1cb)
+2017-08-31T22:47:20.4346092+08:00 0HL7GFHO7EJ0F:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/hubs   (ca22a1cb)
+2017-08-31T22:47:20.4542657+08:00 0HL7GFHO7EJ0F:00000005 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:47:20.4684478+08:00 0HL7GFHO7EJ0F:00000005 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:47:20.5039282+08:00 0HL7GFHO7EJ0F:00000005 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 44.1923ms (afa2e885)
+2017-08-31T22:47:20.5400255+08:00 0HL7GFHO7EJ0F:00000005 [INF] Request finished in 88.2144ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:47:20.8180315+08:00 0HL7GFHO7EJ0G:00000001 [INF] Request finished in 396.5658ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:47:20.8480892+08:00 0HL7GFHO7EJ0E:00000004 [INF] Request finished in 30474.0579ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:47:24.2641912+08:00 0HL7GFHO7EJ0F:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:47:24.5519358+08:00 0HL7GFHO7EJ0F:00000006 [INF] Request finished in 290.7195ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:47:27.1961401+08:00 0HL7GFHO7EJ0G:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:47:27.3398065+08:00 0HL7GFHO7EJ0F:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:47:27.3490896+08:00 0HL7GFHO7EJ0F:00000007 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:47:27.3597694+08:00 0HL7GFHO7EJ0F:00000007 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:47:27.3721360+08:00 0HL7GFHO7EJ0F:00000007 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 19.2953ms (afa2e885)
+2017-08-31T22:47:27.3925604+08:00 0HL7GFHO7EJ0F:00000007 [INF] Request finished in 42.5765ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:47:27.4573195+08:00 0HL7GFHO7EJ0H:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/hubs   (ca22a1cb)
+2017-08-31T22:47:27.4640454+08:00 0HL7GFHO7EJ0F:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=aqj1Yg8COUQMpRq-uuAojPvm7rGC_NnORCE8mv1L4r0   (ca22a1cb)
+2017-08-31T22:47:27.4783341+08:00 0HL7GFHO7EJ0H:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:47:27.5249024+08:00 0HL7GFHO7EJ0H:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:47:27.5419859+08:00 0HL7GFHO7EJ0H:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 64.7299ms (afa2e885)
+2017-08-31T22:47:27.5744417+08:00 0HL7GFHO7EJ0H:00000001 [INF] Request finished in 94.3999ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:47:27.6864506+08:00 0HL7GFHO7EJ0F:00000008 [INF] Request finished in 237.7296ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:47:30.4100426+08:00 0HL7GFHO7EJ0H:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:47:30.8686166+08:00 0HL7GFHO7EJ0G:00000002 [INF] Request finished in 3636.8547ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:47:30.9144531+08:00 0HL7GFHO7EJ0H:00000002 [INF] Request finished in 502.7816ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:47:31.6190667+08:00 0HL7GFHO7EJ0F:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:47:31.6835271+08:00 0HL7GFHO7EJ0H:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22hubeventhistory%22%7D%5D&_=1504190847689 application/json; charset=UTF-8  (ca22a1cb)
+2017-08-31T22:47:31.6895016+08:00 0HL7GFHO7EJ0H:00000003 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:47:31.6953354+08:00 0HL7GFHO7EJ0H:00000003 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:47:31.7022412+08:00 0HL7GFHO7EJ0H:00000003 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 11.8221ms (afa2e885)
+2017-08-31T22:47:31.7108797+08:00 0HL7GFHO7EJ0H:00000003 [INF] Request finished in 24.9707ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:47:40.4304117+08:00 0HL7GFHO7EJ0H:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44361/   (ca22a1cb)
+2017-08-31T22:47:40.4423748+08:00 0HL7GFHO7EJ0H:00000004 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:47:40.4511443+08:00 0HL7GFHO7EJ0H:00000004 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:47:40.4623219+08:00 0HL7GFHO7EJ0H:00000004 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 21.0362ms (afa2e885)
+2017-08-31T22:47:40.4792294+08:00 0HL7GFHO7EJ0H:00000004 [INF] Request finished in 39.8949ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:47:40.4963962+08:00 0HL7GFHO7EJ0J:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js?v=aqj1Yg8COUQMpRq-uuAojPvm7rGC_NnORCE8mv1L4r0   (ca22a1cb)
+2017-08-31T22:47:40.5235783+08:00 0HL7GFHO7EJ0M:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/lib/signalr/jquery.signalR.min.js   (ca22a1cb)
+2017-08-31T22:47:40.5275386+08:00 0HL7GFHO7EJ0I:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/vendor.js?v=tsefw37tGm5nylRQYuAVOxnhbSiIrV6uFeTGGkiPsXM   (ca22a1cb)
+2017-08-31T22:47:40.5374660+08:00 0HL7GFHO7EJ0K:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/lib/jquery/dist/jquery.min.js   (ca22a1cb)
+2017-08-31T22:47:40.5417277+08:00 0HL7GFHO7EJ0L:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/hubs   (ca22a1cb)
+2017-08-31T22:47:40.5552790+08:00 0HL7GFHO7EJ0H:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/vendor.css?v=wM1v5jqNvtBBbg_fpIAaeOPJcw6LtdplAZa9hQf01jM   (ca22a1cb)
+2017-08-31T22:47:40.5713373+08:00 0HL7GFHO7EJ0M:00000001 [INF] Sending file. Request path: '"/lib/signalr/jquery.signalR.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\signalr\jquery.signalR.min.js"' (27b0a520)
+2017-08-31T22:47:40.5897287+08:00 0HL7GFHO7EJ0L:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:47:40.5969014+08:00 0HL7GFHO7EJ0K:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\jquery\dist\jquery.min.js"' (27b0a520)
+2017-08-31T22:47:40.6545696+08:00 0HL7GFHO7EJ0I:00000001 [INF] Sending file. Request path: '"/dist/vendor.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.js"' (27b0a520)
+2017-08-31T22:47:40.6687812+08:00 0HL7GFHO7EJ0M:00000001 [INF] Request finished in 87.372ms 200 application/javascript (791a596a)
+2017-08-31T22:47:40.6721048+08:00 0HL7GFHO7EJ0L:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:47:40.6858186+08:00 0HL7GFHO7EJ0H:00000005 [INF] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.css"' (27b0a520)
+2017-08-31T22:47:40.6909255+08:00 0HL7GFHO7EJ0K:00000001 [INF] Request finished in 128.2839ms 200 application/javascript (791a596a)
+2017-08-31T22:47:40.7896221+08:00 0HL7GFHO7EJ0L:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 130.8115ms (afa2e885)
+2017-08-31T22:47:40.8634602+08:00 0HL7GFHO7EJ0H:00000005 [INF] Request finished in 268.1445ms 200 text/css (791a596a)
+2017-08-31T22:47:40.9178705+08:00 0HL7GFHO7EJ0L:00000001 [INF] Request finished in 299.131ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:47:40.9876312+08:00 0HL7GFHO7EJ0F:00000009 [INF] Request finished in 9243.9837ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:47:41.0503132+08:00 0HL7GFHO7EJ0J:00000001 [INF] Request finished in 492.8104ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:47:41.1228798+08:00 0HL7GFHO7EJ0I:00000001 [INF] Request finished in 598.6173ms 200 application/javascript (791a596a)
+2017-08-31T22:47:43.4790304+08:00 0HL7GFHO7EJ0M:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/main-client.js.map   (ca22a1cb)
+2017-08-31T22:47:43.7226537+08:00 0HL7GFHO7EJ0M:00000002 [INF] Request finished in 253.4429ms 200 application/json; charset=UTF-8 (791a596a)
+2017-08-31T22:47:45.8625981+08:00 0HL7GFHO7EJ0K:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:47:45.8845797+08:00 0HL7GFHO7EJ0L:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44361/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22hubeventhistory%22%7D%5D&_=1504190861176 application/json; charset=UTF-8  (ca22a1cb)
+2017-08-31T22:47:45.9181484+08:00 0HL7GFHO7EJ0L:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:47:45.9410972+08:00 0HL7GFHO7EJ0L:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:47:45.9939829+08:00 0HL7GFHO7EJ0L:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 55.6311ms (afa2e885)
+2017-08-31T22:47:46.0124918+08:00 0HL7GFHO7EJ0L:00000002 [INF] Request finished in 122.9977ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:48:36.4742751+08:00 0HL7GFTE1SI9G:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/   (ca22a1cb)
+2017-08-31T22:48:37.3241059+08:00 0HL7GFTE1SI9G:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:48:42.2888947+08:00 0HL7GFTE1SI9G:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:48:42.9489319+08:00 0HL7GFTE1SI9G:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 5633.5182ms (afa2e885)
+2017-08-31T22:48:42.9712838+08:00 0HL7GFTE1SI9G:00000001 [INF] Request finished in 6538.3848ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:48:43.0196515+08:00 0HL7GFTE1SI9G:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/vendor.js?v=tsefw37tGm5nylRQYuAVOxnhbSiIrV6uFeTGGkiPsXM   (ca22a1cb)
+2017-08-31T22:48:43.0521125+08:00 0HL7GFTE1SI9I:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/vendor.css?v=wM1v5jqNvtBBbg_fpIAaeOPJcw6LtdplAZa9hQf01jM   (ca22a1cb)
+2017-08-31T22:48:43.1147838+08:00 0HL7GFTE1SI9J:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/hubs   (ca22a1cb)
+2017-08-31T22:48:43.1272924+08:00 0HL7GFTE1SI9L:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/lib/jquery/dist/jquery.min.js   (ca22a1cb)
+2017-08-31T22:48:43.1429880+08:00 0HL7GFTE1SI9J:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:48:43.1522695+08:00 0HL7GFTE1SI9J:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:48:43.1663414+08:00 0HL7GFTE1SI9J:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 22.4431ms (afa2e885)
+2017-08-31T22:48:43.1977562+08:00 0HL7GFTE1SI9L:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\jquery\dist\jquery.min.js"' (27b0a520)
+2017-08-31T22:48:43.2093002+08:00 0HL7GFTE1SI9J:00000001 [INF] Request finished in 92.9594ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:48:43.2541848+08:00 0HL7GFTE1SI9M:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/lib/signalr/jquery.signalR.min.js   (ca22a1cb)
+2017-08-31T22:48:43.2737593+08:00 0HL7GFTE1SI9L:00000001 [INF] Request finished in 155.0974ms 200 application/javascript (791a596a)
+2017-08-31T22:48:43.2928328+08:00 0HL7GFTE1SI9K:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=aqj1Yg8COUQMpRq-uuAojPvm7rGC_NnORCE8mv1L4r0   (ca22a1cb)
+2017-08-31T22:48:43.3096187+08:00 0HL7GFTE1SI9M:00000001 [INF] Sending file. Request path: '"/lib/signalr/jquery.signalR.min.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\lib\signalr\jquery.signalR.min.js"' (27b0a520)
+2017-08-31T22:48:43.3225102+08:00 0HL7GFTE1SI9M:00000001 [INF] Request finished in 75.7176ms 200 application/javascript (791a596a)
+2017-08-31T22:48:53.8224217+08:00  [INF] webpack built 1701412ab3edd42b9e07 in 18082ms (ee6f07c0)
+2017-08-31T22:48:54.1840277+08:00 0HL7GFTE1SI9G:00000002 [INF] Sending file. Request path: '"/dist/vendor.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.js"' (27b0a520)
+2017-08-31T22:48:54.3595511+08:00 0HL7GFTE1SI9I:00000001 [INF] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.css"' (27b0a520)
+2017-08-31T22:48:54.5552313+08:00 0HL7GFTE1SI9K:00000001 [INF] Request finished in 11266.0033ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:48:54.6340935+08:00 0HL7GFTE1SI9I:00000001 [INF] Request finished in 11556.9759ms 200 text/css (791a596a)
+2017-08-31T22:48:54.6688318+08:00 0HL7GFTE1SI9G:00000002 [INF] Request finished in 11652.8968ms 200 application/javascript (791a596a)
+2017-08-31T22:49:11.4048247+08:00 0HL7GFTE1SI9J:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:49:11.5677805+08:00 0HL7GFTE1SI9L:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/login   (ca22a1cb)
+2017-08-31T22:49:11.5853674+08:00 0HL7GFTE1SI9L:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:49:11.6057791+08:00 0HL7GFTE1SI9L:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:49:11.6901712+08:00 0HL7GFTE1SI9L:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 113.4296ms (afa2e885)
+2017-08-31T22:49:11.7229183+08:00 0HL7GFTE1SI9L:00000002 [INF] Request finished in 144.6967ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:49:11.7450132+08:00 0HL7GFTE1SI9I:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/hubs   (ca22a1cb)
+2017-08-31T22:49:11.7571817+08:00 0HL7GFTE1SI9I:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:49:11.7749923+08:00 0HL7GFTE1SI9I:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:49:11.7919025+08:00 0HL7GFTE1SI9I:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 30.0655ms (afa2e885)
+2017-08-31T22:49:11.8078350+08:00 0HL7GFTE1SI9I:00000002 [INF] Request finished in 83.2365ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:49:11.8191448+08:00 0HL7GFTE1SI9M:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=2xrrawGR1m7pGk6AKY86HdPNRffNOcvAyvF0j8U6BR0   (ca22a1cb)
+2017-08-31T22:49:12.0398134+08:00 0HL7GFTE1SI9M:00000002 [INF] Request finished in 313.8499ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:49:15.9081025+08:00 0HL7GFTE1SI9J:00000002 [INF] Request finished in 4501.3356ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:49:49.9557107+08:00 0HL7GFTE1SI9K:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:49:49.9632396+08:00 0HL7GFTE1SI9G:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44360/login   (ca22a1cb)
+2017-08-31T22:49:49.9732392+08:00 0HL7GFTE1SI9G:00000003 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:49:49.9839335+08:00 0HL7GFTE1SI9G:00000003 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:49:49.9949477+08:00 0HL7GFTE1SI9G:00000003 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 19.7698ms (afa2e885)
+2017-08-31T22:49:50.0668487+08:00 0HL7GFTE1SI9G:00000003 [INF] Request finished in 37.9531ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:49:50.0865779+08:00 0HL7GFTE1SI9L:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/hubs   (ca22a1cb)
+2017-08-31T22:49:50.1015953+08:00 0HL7GFTE1SI9L:00000003 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:49:50.1448931+08:00 0HL7GFTE1SI9L:00000003 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:49:50.1560509+08:00 0HL7GFTE1SI9L:00000003 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 57.2145ms (afa2e885)
+2017-08-31T22:49:50.1628605+08:00 0HL7GFTE1SI9I:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=2xrrawGR1m7pGk6AKY86HdPNRffNOcvAyvF0j8U6BR0   (ca22a1cb)
+2017-08-31T22:49:50.1791232+08:00 0HL7GFTE1SI9L:00000003 [INF] Request finished in 97.5911ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:49:50.1891810+08:00 0HL7GFTE1SI9K:00000002 [INF] Request finished in 241.6278ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:49:50.4415371+08:00 0HL7GFTE1SI9I:00000003 [INF] Request finished in 264.3149ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:49:54.5399885+08:00 0HL7GFTE1SI9M:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:49:54.5557417+08:00 0HL7GFTE1SI9L:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44360/favicon.ico   (ca22a1cb)
+2017-08-31T22:49:54.5835259+08:00 0HL7GFTE1SI9G:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22hubeventhistory%22%7D%5D&_=1504190990316 application/json; charset=UTF-8  (ca22a1cb)
+2017-08-31T22:49:54.6292723+08:00 0HL7GFTE1SI9G:00000004 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:49:54.6300370+08:00 0HL7GFTE1SI9L:00000004 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\favicon.ico"' (27b0a520)
+2017-08-31T22:49:54.6527241+08:00 0HL7GFTE1SI9G:00000004 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:49:54.6792407+08:00 0HL7GFTE1SI9L:00000004 [INF] Request finished in 120.8171ms 200 image/x-icon (791a596a)
+2017-08-31T22:49:54.7016148+08:00 0HL7GFTE1SI9G:00000004 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 65.489ms (afa2e885)
+2017-08-31T22:49:54.7163499+08:00 0HL7GFTE1SI9G:00000004 [INF] Request finished in 179.3051ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:53:49.7568690+08:00 0HL7GG0BD81IN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/   (ca22a1cb)
+2017-08-31T22:53:50.5074068+08:00 0HL7GG0BD81IN:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:53:55.4766022+08:00 0HL7GG0BD81IN:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:53:56.7065196+08:00 0HL7GG0BD81IN:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 5996.2324ms (afa2e885)
+2017-08-31T22:53:56.8298806+08:00 0HL7GG0BD81IP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=2xrrawGR1m7pGk6AKY86HdPNRffNOcvAyvF0j8U6BR0   (ca22a1cb)
+2017-08-31T22:53:57.0842280+08:00 0HL7GG0BD81IQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/hubs   (ca22a1cb)
+2017-08-31T22:53:57.1136994+08:00 0HL7GG0BD81IN:00000001 [INF] Request finished in 7159.0154ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:53:57.3241639+08:00 0HL7GG0BD81IQ:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:53:57.6437492+08:00 0HL7GG0BD81IQ:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:53:57.8689453+08:00 0HL7GG0BD81IQ:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 552.4295ms (afa2e885)
+2017-08-31T22:53:57.8865286+08:00 0HL7GG0BD81IQ:00000001 [INF] Request finished in 868.226ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:54:10.2694158+08:00  [INF] webpack built 1701412ab3edd42b9e07 in 21131ms (01ad6857)
+2017-08-31T22:54:10.7264020+08:00 0HL7GG0BD81IP:00000001 [INF] Request finished in 14027.8493ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:54:19.2008180+08:00 0HL7GG0BD81IN:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:54:19.2086669+08:00 0HL7GG0BD81IQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/login   (ca22a1cb)
+2017-08-31T22:54:19.2167401+08:00 0HL7GG0BD81IQ:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:54:19.2220536+08:00 0HL7GG0BD81IQ:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:54:19.3220630+08:00 0HL7GG0BD81IQ:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 98.6688ms (afa2e885)
+2017-08-31T22:54:19.3825584+08:00 0HL7GG0BD81IQ:00000002 [INF] Request finished in 139.949ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:54:19.4016631+08:00 0HL7GG0BD81IQ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=2xrrawGR1m7pGk6AKY86HdPNRffNOcvAyvF0j8U6BR0   (ca22a1cb)
+2017-08-31T22:54:19.4194643+08:00 0HL7GG0BD81IP:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/hubs   (ca22a1cb)
+2017-08-31T22:54:19.4403426+08:00 0HL7GG0BD81IP:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:54:19.4549676+08:00 0HL7GG0BD81IP:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:54:19.4861309+08:00 0HL7GG0BD81IP:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 37.9282ms (afa2e885)
+2017-08-31T22:54:19.5894338+08:00 0HL7GG0BD81IP:00000002 [INF] Request finished in 124.7709ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:54:19.7053220+08:00 0HL7GG0BD81IQ:00000003 [INF] Request finished in 291.1324ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:54:29.2464792+08:00 0HL7GG0BD81IN:00000002 [INF] Request finished in 10061.729ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T22:56:51.4014519+08:00 0HL7GG0BD81IR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T22:56:51.5933071+08:00 0HL7GG0BD81IS:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/login   (ca22a1cb)
+2017-08-31T22:56:51.6318071+08:00 0HL7GG0BD81IS:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:56:51.6448515+08:00 0HL7GG0BD81IS:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:56:51.6588803+08:00 0HL7GG0BD81IS:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 31.0322ms (afa2e885)
+2017-08-31T22:56:51.8000045+08:00 0HL7GG0BD81IT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=2xrrawGR1m7pGk6AKY86HdPNRffNOcvAyvF0j8U6BR0   (ca22a1cb)
+2017-08-31T22:56:51.8351032+08:00 0HL7GG0BD81IS:00000001 [INF] Request finished in 189.4914ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:56:51.9505793+08:00 0HL7GG0BD81IS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/hubs   (ca22a1cb)
+2017-08-31T22:56:52.2693605+08:00 0HL7GG0BD81IS:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T22:56:52.2946527+08:00 0HL7GG0BD81IS:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T22:56:52.4626041+08:00 0HL7GG0BD81IS:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 344.1183ms (afa2e885)
+2017-08-31T22:56:52.5936688+08:00 0HL7GG0BD81IS:00000002 [INF] Request finished in 653.3097ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T22:56:52.8929825+08:00 0HL7GG0BD81IT:00000001 [INF] Request finished in 1139.9517ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T22:56:59.3614192+08:00 0HL7GG0BD81IR:00000001 [INF] Request finished in 7955.857ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T23:00:33.9055441+08:00 0HL7GG0BD81IU:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T23:00:33.9856906+08:00 0HL7GG0BD81IV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/login   (ca22a1cb)
+2017-08-31T23:00:33.9962105+08:00 0HL7GG0BD81IV:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T23:00:34.0040917+08:00 0HL7GG0BD81IV:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T23:00:34.0163984+08:00 0HL7GG0BD81IV:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 18.353ms (afa2e885)
+2017-08-31T23:00:34.0255473+08:00 0HL7GG0BD81IV:00000001 [INF] Request finished in 43.942ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T23:00:34.1821195+08:00 0HL7GG0BD81IV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/lib/jquery/dist/jquery.min.js   (ca22a1cb)
+2017-08-31T23:00:34.2255791+08:00 0HL7GG0BD81J0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=2xrrawGR1m7pGk6AKY86HdPNRffNOcvAyvF0j8U6BR0   (ca22a1cb)
+2017-08-31T23:00:34.2630701+08:00 0HL7GG0BD81J1:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/hubs   (ca22a1cb)
+2017-08-31T23:00:34.3116276+08:00 0HL7GG0BD81J1:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T23:00:34.3174743+08:00 0HL7GG0BD81IV:00000002 [INF] The file "/lib/jquery/dist/jquery.min.js" was not modified (f1f8d725)
+2017-08-31T23:00:34.4313196+08:00 0HL7GG0BD81J1:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T23:00:34.4789645+08:00 0HL7GG0BD81IV:00000002 [INF] Request finished in 216.0981ms 304 application/javascript (791a596a)
+2017-08-31T23:00:34.5823988+08:00 0HL7GG0BD81J1:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 168.501ms (afa2e885)
+2017-08-31T23:00:34.9377828+08:00 0HL7GG0BD81J1:00000001 [INF] Request finished in 446.3787ms 200 text/html; charset=utf-8 (791a596a)
+2017-08-31T23:00:35.2435354+08:00 0HL7GG0BD81J0:00000001 [INF] Request finished in 1094.9668ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-08-31T23:00:39.5271660+08:00 0HL7GG0BD81IU:00000001 [INF] Request finished in 5621.4489ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-08-31T23:00:46.1433977+08:00 0HL7GG0BD81IV:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-08-31T23:00:46.1617962+08:00 0HL7GG0BD81J1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22hubeventhistory%22%7D%5D&_=1504191634449 application/json; charset=UTF-8  (ca22a1cb)
+2017-08-31T23:00:46.1843680+08:00 0HL7GG0BD81J1:00000002 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-08-31T23:00:46.1988296+08:00 0HL7GG0BD81J1:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-08-31T23:00:46.2325225+08:00 0HL7GG0BD81J1:00000002 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 43.9274ms (afa2e885)
+2017-08-31T23:00:46.2680432+08:00 0HL7GG0BD81J1:00000002 [INF] Request finished in 164.1251ms 200 text/html; charset=utf-8 (791a596a)

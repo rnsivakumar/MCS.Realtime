@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCS.Web", "MCS.Web\MCS.Web.csproj", "{5FAE8D1C-D80F-4E6A-8F5F-AB8FF548B442}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCS.Infrastructure", "MCS.Infrastructure\MCS.Infrastructure.csproj", "{B0CEDE49-CA34-4413-A6B2-8B37F5815E49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FAE8D1C-D80F-4E6A-8F5F-AB8FF548B442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAE8D1C-D80F-4E6A-8F5F-AB8FF548B442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAE8D1C-D80F-4E6A-8F5F-AB8FF548B442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAE8D1C-D80F-4E6A-8F5F-AB8FF548B442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CEDE49-CA34-4413-A6B2-8B37F5815E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CEDE49-CA34-4413-A6B2-8B37F5815E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CEDE49-CA34-4413-A6B2-8B37F5815E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CEDE49-CA34-4413-A6B2-8B37F5815E49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D70C02A9-F4C8-4A72-BC77-EB397384A443}
+	EndGlobalSection
+EndGlobal

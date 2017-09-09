@@ -1,0 +1,914 @@
+2017-09-07T19:31:22.9109555+08:00  [INF] Start() called... (56fe0b6c)
+2017-09-07T19:31:22.9294894+08:00  [INF] MainLoop() started. Running... (cf0c47a4)
+2017-09-07T19:31:22.9380039+08:00  [DBG] Sleeping for 00:00:23... (d065748c)
+2017-09-07T19:31:23.8857363+08:00 0HL7LSFS188KJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/   (ca22a1cb)
+2017-09-07T19:31:25.3352573+08:00 0HL7LSFS188KJ:00000001 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:31:30.1115848+08:00 0HL7LSFS188KJ:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-09-07T19:31:31.3405502+08:00 0HL7LSFS188KJ:00000001 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 5922.4166ms (afa2e885)
+2017-09-07T19:31:31.3680368+08:00 0HL7LSFS188KJ:00000001 [INF] Request finished in 7561.1185ms 200 text/html; charset=utf-8 (791a596a)
+2017-09-07T19:31:31.4236961+08:00 0HL7LSFS188KL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/lib/signalr-client/dist/browser/signalr-msgpackprotocol.js   (ca22a1cb)
+2017-09-07T19:31:31.4511124+08:00 0HL7LSFS188KL:00000001 [INF] The file "/lib/signalr-client/dist/browser/signalr-msgpackprotocol.js" was not modified (f1f8d725)
+2017-09-07T19:31:31.4707425+08:00 0HL7LSFS188KL:00000001 [INF] Request finished in 43.2769ms 304 application/javascript (791a596a)
+2017-09-07T19:31:31.4851741+08:00 0HL7LSFS188KK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/vendor.css?v=wM1v5jqNvtBBbg_fpIAaeOPJcw6LtdplAZa9hQf01jM   (ca22a1cb)
+2017-09-07T19:31:31.6299756+08:00 0HL7LSFS188KN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/vendor.js?v=T3fl4hJ_6dYej29pjilQqBdwqRTQMtPNoiJO-udshWs   (ca22a1cb)
+2017-09-07T19:31:31.6479520+08:00 0HL7LSFS188KP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=RIeWjmluOj75SSM9THSQKp5WDJxG28oEhtflFi9BpyQ   (ca22a1cb)
+2017-09-07T19:31:31.6633898+08:00 0HL7LSFS188KM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/lib/jquery/dist/jquery.min.js   (ca22a1cb)
+2017-09-07T19:31:31.6745535+08:00 0HL7LSFS188KM:00000001 [INF] The file "/lib/jquery/dist/jquery.min.js" was not modified (f1f8d725)
+2017-09-07T19:31:31.6961326+08:00 0HL7LSFS188KM:00000001 [INF] Request finished in 23.3807ms 304 application/javascript (791a596a)
+2017-09-07T19:31:31.7167058+08:00 0HL7LSFS188KO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/lib/signalr-client/dist/browser/signalr-client.js   (ca22a1cb)
+2017-09-07T19:31:31.7296708+08:00 0HL7LSFS188KO:00000001 [INF] The file "/lib/signalr-client/dist/browser/signalr-client.js" was not modified (f1f8d725)
+2017-09-07T19:31:31.7532177+08:00 0HL7LSFS188KO:00000001 [INF] Request finished in 22.4664ms 304 application/javascript (791a596a)
+2017-09-07T19:31:31.7730180+08:00 0HL7LSFS188KQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44360/lib/signalr-client/dist/src/index.js   (ca22a1cb)
+2017-09-07T19:31:31.7882533+08:00 0HL7LSFS188KQ:00000001 [INF] The file "/lib/signalr-client/dist/src/index.js" was not modified (f1f8d725)
+2017-09-07T19:31:31.8065326+08:00 0HL7LSFS188KQ:00000001 [INF] Request finished in 29.5219ms 304 application/javascript (791a596a)
+2017-09-07T19:31:41.3602877+08:00  [INF] webpack built 09178a41272927a01e0b in 18939ms (cc704a1e)
+2017-09-07T19:31:41.5302906+08:00  [ERR] Hash: 09178a41272927a01e0b
+Version: webpack 2.5.1
+Time: 18939ms
+                               Asset     Size  Chunks                    Chunk Names
+e10af218b941826ea360d7554688d721.png  32.6 kB          [emitted]         
+                      main-client.js  2.78 MB       0  [emitted]  [big]  main-client
+                  main-client.js.map  3.45 MB       0  [emitted]         main-client
+chunk    {0} main-client.js, main-client.js.map (main-client) 2.7 MB [entry] [rendered]
+    [2] delegated ./node_modules/@angular/core/@angular/core.es5.js from dll-reference vendor_fe7dfadfd6aeec26369b 42 bytes {0} [not cacheable] [built]
+  [154] delegated ./node_modules/webpack/buildin/module.js from dll-reference vendor_fe7dfadfd6aeec26369b 42 bytes {0} [not cacheable] [built]
+  [158] ./ClientApp/boot-client.ts 940 bytes {0} [built]
+  [159] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 6.68 kB {0} [built]
+  [160] delegated ./node_modules/event-source-polyfill/eventsource.js from dll-reference vendor_fe7dfadfd6aeec26369b 42 bytes {0} [not cacheable] [built]
+  [176] ./ClientApp/app/app.module.ts 8.61 kB {0} [built]
+  [255] ./~/querystring-es3/index.js 127 bytes {0} [built]
+  [504] ./~/strip-ansi/index.js 161 bytes {0} [built]
+  [532] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0} [built]
+  [533] (webpack)-hot-middleware/process-update.js 3.88 kB {0} [built]
+  [538] delegated ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js from dll-reference vendor_fe7dfadfd6aeec26369b 42 bytes {0} [not cacheable] [built]
+  [542] delegated ./node_modules/core-js/client/shim.js from dll-reference vendor_fe7dfadfd6aeec26369b 42 bytes {0} [not cacheable] [built]
+  [548] delegated ./node_modules/web-animations-js/web-animations.min.js from dll-reference vendor_fe7dfadfd6aeec26369b 42 bytes {0} [not cacheable] [built]
+  [549] delegated ./node_modules/zone.js/dist/zone.js from dll-reference vendor_fe7dfadfd6aeec26369b 42 bytes {0} [not cacheable] [built]
+  [570] multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.ts 52 bytes {0} [built]
+     + 556 hidden modules
+
+ERROR in [at-loader] ./obj/Release/netcoreapp2.0/PubTmp/Out/wwwroot/lib/popper.js/packages/popper/index.d.ts:130:3 
+    TS2300: Duplicate identifier 'default'.
+
+ERROR in [at-loader] ./wwwroot/lib/popper.js/packages/popper/index.d.ts:8:19 
+    TS2649: Cannot augment module 'Popper' with value exports because it resolves to a non-module entity.
+
+ERROR in [at-loader] ./wwwroot/lib/popper.js/packages/popper/index.d.ts:130:3 
+    TS2300: Duplicate identifier 'default'. (dd310a61)
+2017-09-07T19:31:41.5820594+08:00 0HL7LSFS188KK:00000001 [INF] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.css"' (27b0a520)
+2017-09-07T19:31:41.5872426+08:00 0HL7LSFS188KN:00000001 [INF] Sending file. Request path: '"/dist/vendor.js"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\dist\vendor.js"' (27b0a520)
+2017-09-07T19:31:41.9582841+08:00 0HL7LSFS188KK:00000001 [INF] Request finished in 10341.9494ms 200 text/css (791a596a)
+2017-09-07T19:31:42.4409971+08:00 0HL7LSFS188KN:00000001 [INF] Request finished in 10831.7202ms 200 application/javascript (791a596a)
+2017-09-07T19:31:42.5753888+08:00 0HL7LSFS188KP:00000001 [INF] Request finished in 10900.3153ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-09-07T19:31:45.7800696+08:00 0HL7LSFS188KJ:00000002 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44360/hubEventHistory   (ca22a1cb)
+2017-09-07T19:31:45.8909617+08:00 0HL7LSFS188KJ:00000002 [INF] Request finished in 106.0394ms 200 application/json (791a596a)
+2017-09-07T19:31:45.9465365+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:31:45.9577461+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:31:45.9669605+08:00  [DBG] Run at: 07/09/2017 19:31:45 +08:00 (4008434c)
+2017-09-07T19:31:46.0227675+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:31:46.1818943+08:00 0HL7LSFS188KL:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-09-07T19:31:46.6233487+08:00 0HL7LSFS188KM:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44360/hubEventHistory?id=9b8e7478-1fa5-44c1-8b71-29afb0040f8b   (ca22a1cb)
+2017-09-07T19:31:46.9475870+08:00 0HL7LSFS188KM:00000002 [INF] 09/07/2017 19:31:46: Connection Id "9b8e7478-1fa5-44c1-8b71-29afb0040f8b": Socket opened. (2a7be2cb)
+2017-09-07T19:31:47.4425055+08:00  [INF] Done. (46360b67)
+2017-09-07T19:31:47.4502490+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:31:47.8126608+08:00 0HL7LSFS188KO:00000002 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 343 (ca22a1cb)
+2017-09-07T19:31:47.9598229+08:00 0HL7LSFS188KO:00000002 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:31:48.0866164+08:00 0HL7LSFS188KO:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:31:48.3105454+08:00 0HL7LSFS188KO:00000002 [INF] Executed DbCommand ("64"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:31:48.3254523+08:00 0HL7LSFS188KO:00000002 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 468.9678ms (afa2e885)
+2017-09-07T19:31:48.3374912+08:00 0HL7LSFS188KO:00000002 [INF] Request finished in 531.7213ms 200  (791a596a)
+2017-09-07T19:31:48.3576242+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:31:48 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (0ede68f2)
+2017-09-07T19:31:50.4585780+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:31:50.4669465+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:31:50.4735733+08:00  [DBG] Run at: 07/09/2017 19:31:50 +08:00 (422583ef)
+2017-09-07T19:31:50.4818344+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:31:50.5011783+08:00  [INF] Done. (46360b67)
+2017-09-07T19:31:50.5068747+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:31:50.5188824+08:00 0HL7LSFS188KQ:00000002 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/302 application/json; charset=utf-8 343 (ca22a1cb)
+2017-09-07T19:31:50.5262944+08:00 0HL7LSFS188KQ:00000002 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["302", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:31:50.5342906+08:00 0HL7LSFS188KQ:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:31:50.5443747+08:00 0HL7LSFS188KQ:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:31:50.5509944+08:00 0HL7LSFS188KQ:00000002 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 25.874ms (afa2e885)
+2017-09-07T19:31:50.5833247+08:00 0HL7LSFS188KQ:00000002 [INF] Request finished in 37.7226ms 200  (791a596a)
+2017-09-07T19:31:50.6111981+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:31:50 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAy?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (e7e63506)
+2017-09-07T19:31:53.5143384+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:31:53.5222548+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:31:53.5319616+08:00  [DBG] Run at: 07/09/2017 19:31:53 +08:00 (6bf296bd)
+2017-09-07T19:31:53.5429188+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:31:53.5564006+08:00  [INF] Done. (46360b67)
+2017-09-07T19:31:53.5643834+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:31:53.5777609+08:00 0HL7LSFS188KK:00000002 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 345 (ca22a1cb)
+2017-09-07T19:31:53.5851417+08:00 0HL7LSFS188KK:00000002 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:31:53.5919166+08:00 0HL7LSFS188KK:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:31:53.6008463+08:00 0HL7LSFS188KK:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:31:53.6109040+08:00 0HL7LSFS188KK:00000002 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 23.9128ms (afa2e885)
+2017-09-07T19:31:53.6220078+08:00 0HL7LSFS188KK:00000002 [INF] Request finished in 39.7971ms 200  (791a596a)
+2017-09-07T19:31:53.6564291+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:31:53 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (f748705c)
+2017-09-07T19:31:56.5755226+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:31:56.5902531+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:31:56.6004236+08:00  [DBG] Run at: 07/09/2017 19:31:56 +08:00 (ef20639e)
+2017-09-07T19:31:56.6115593+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:31:56.6203975+08:00  [INF] Done. (46360b67)
+2017-09-07T19:31:56.6336551+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:31:56.6702179+08:00 0HL7LSFS188KN:00000002 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/302 application/json; charset=utf-8 341 (ca22a1cb)
+2017-09-07T19:31:56.6936744+08:00 0HL7LSFS188KN:00000002 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["302", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:31:56.7226540+08:00 0HL7LSFS188KN:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:31:56.7631309+08:00 0HL7LSFS188KN:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:31:56.7765357+08:00 0HL7LSFS188KN:00000002 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 93.8362ms (afa2e885)
+2017-09-07T19:31:56.7872814+08:00 0HL7LSFS188KN:00000002 [INF] Request finished in 119.8295ms 200  (791a596a)
+2017-09-07T19:31:56.8063786+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:31:56 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAy?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (aca0c408)
+2017-09-07T19:31:59.6405799+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:31:59.6467062+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:31:59.6555922+08:00  [DBG] Run at: 07/09/2017 19:31:59 +08:00 (4aa32594)
+2017-09-07T19:31:59.6642339+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:31:59.6714389+08:00  [INF] Done. (46360b67)
+2017-09-07T19:31:59.6784790+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:31:59.6916210+08:00 0HL7LSFS188KP:00000002 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 340 (ca22a1cb)
+2017-09-07T19:31:59.6981612+08:00 0HL7LSFS188KP:00000002 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:31:59.7055290+08:00 0HL7LSFS188KP:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:31:59.7131301+08:00 0HL7LSFS188KP:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:31:59.7234755+08:00 0HL7LSFS188KP:00000002 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 22.1522ms (afa2e885)
+2017-09-07T19:31:59.7372329+08:00 0HL7LSFS188KP:00000002 [INF] Request finished in 38.282ms 200  (791a596a)
+2017-09-07T19:31:59.7690554+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:31:59 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (50d395b1)
+2017-09-07T19:32:02.6841702+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:02.6904299+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:02.6973284+08:00  [DBG] Run at: 07/09/2017 19:32:02 +08:00 (51eb78c9)
+2017-09-07T19:32:02.7065171+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:02.7135912+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:02.7196858+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:02.7299306+08:00 0HL7LSFS188KJ:00000003 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 343 (ca22a1cb)
+2017-09-07T19:32:02.7360766+08:00 0HL7LSFS188KJ:00000003 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:02.7414058+08:00 0HL7LSFS188KJ:00000003 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:02.7481337+08:00 0HL7LSFS188KJ:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:02.7552863+08:00 0HL7LSFS188KJ:00000003 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 18.6096ms (afa2e885)
+2017-09-07T19:32:02.7635102+08:00 0HL7LSFS188KJ:00000003 [INF] Request finished in 30.1433ms 200  (791a596a)
+2017-09-07T19:32:02.7748883+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:02 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (76641d67)
+2017-09-07T19:32:05.7279904+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:05.7354126+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:05.7420931+08:00  [DBG] Run at: 07/09/2017 19:32:05 +08:00 (b99919af)
+2017-09-07T19:32:05.7508820+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:05.7610715+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:05.7713071+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:05.7893116+08:00 0HL7LSFS188KO:00000003 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 343 (ca22a1cb)
+2017-09-07T19:32:05.7972376+08:00 0HL7LSFS188KO:00000003 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:05.8027437+08:00 0HL7LSFS188KO:00000003 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:05.8099136+08:00 0HL7LSFS188KO:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:05.8186887+08:00 0HL7LSFS188KO:00000003 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 20.9482ms (afa2e885)
+2017-09-07T19:32:05.8689185+08:00 0HL7LSFS188KO:00000003 [INF] Request finished in 35.2119ms 200  (791a596a)
+2017-09-07T19:32:05.8767339+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:05 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (20b90efb)
+2017-09-07T19:32:08.7773651+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:08.7844044+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:08.7911792+08:00  [DBG] Run at: 07/09/2017 19:32:08 +08:00 (8198d6ad)
+2017-09-07T19:32:08.8000695+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:08.8073114+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:08.8135857+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:08.8241175+08:00 0HL7LSFS188KQ:00000003 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 340 (ca22a1cb)
+2017-09-07T19:32:08.8300948+08:00 0HL7LSFS188KQ:00000003 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:08.8357478+08:00 0HL7LSFS188KQ:00000003 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:08.8635601+08:00 0HL7LSFS188KQ:00000003 [INF] Executed DbCommand ("20"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:08.8726008+08:00 0HL7LSFS188KQ:00000003 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 41.1858ms (afa2e885)
+2017-09-07T19:32:08.8815733+08:00 0HL7LSFS188KQ:00000003 [INF] Request finished in 53.775ms 200  (791a596a)
+2017-09-07T19:32:08.8980287+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:08 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (93250694)
+2017-09-07T19:32:10.8033843+08:00 0HL7LSFS188KK:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44360/   (ca22a1cb)
+2017-09-07T19:32:10.8136030+08:00 0HL7LSFS188KK:00000003 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:10.8202792+08:00 0HL7LSFS188KK:00000003 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-09-07T19:32:10.9391269+08:00 0HL7LSFS188KK:00000003 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 96.1037ms (afa2e885)
+2017-09-07T19:32:10.9736371+08:00 0HL7LSFS188KK:00000003 [INF] Request finished in 144.5634ms 200 text/html; charset=utf-8 (791a596a)
+2017-09-07T19:32:11.0293575+08:00 0HL7LSFS188KN:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=CMLrVzCKBjG1xr-DEEv3NxDGOXwAQrGDbC6GeAV2FF4   (ca22a1cb)
+2017-09-07T19:32:11.5335015+08:00 0HL7LSFS188KM:00000002 [ERR] 09/07/2017 19:32:11: ConnectionId "9b8e7478-1fa5-44c1-8b71-29afb0040f8b": Failed disposing connection. (bb9aff30)
+System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.ConnectionResetException: Error -4077 ECONNRESET connection reset by peer ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4077 ECONNRESET connection reset by peer
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.PipeCompletion.ThrowFailed()
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.Pipe.GetResult(ReadResult& result)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.Pipe.Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.IReadableBufferAwaiter.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.ReadableBufferAwaitable.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.MessageBody.<ReadAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.FrameRequestStream.<ReadAsyncInternal>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.ManagedWebSocket.<EnsureBufferContainsAsync>d__70.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.ManagedWebSocket.<ReceiveAsyncPrivate>d__61.MoveNext()
+   at System.Net.WebSockets.ManagedWebSocket.<ReceiveAsyncPrivate>d__61.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.Internal.Transports.WebSocketsTransport.<StartReceiving>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.Internal.Transports.WebSocketsTransport.<ProcessSocketAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.Internal.Transports.WebSocketsTransport.<ProcessRequestAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.DefaultConnectionContext.<WaitOnTasks>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.DefaultConnectionContext.<DisposeAsync>d__55.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.ConnectionManager.<DisposeAndRemoveAsync>d__14.MoveNext()
+2017-09-07T19:32:11.5437861+08:00 0HL7LSFS188KM:00000002 [INF] Request finished in 24959.5179ms 101  (791a596a)
+2017-09-07T19:32:11.8086164+08:00 0HL7LSFS188KN:00000003 [INF] Request finished in 812.293ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-09-07T19:32:11.8334455+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:11.8483777+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:11.8779920+08:00  [DBG] Run at: 07/09/2017 19:32:11 +08:00 (9bb6d9b1)
+2017-09-07T19:32:11.8952978+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:11.9139994+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:11.9316439+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:11.9456372+08:00 0HL7LSFS188KP:00000003 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 341 (ca22a1cb)
+2017-09-07T19:32:11.9604660+08:00 0HL7LSFS188KP:00000003 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:11.9721220+08:00 0HL7LSFS188KP:00000003 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:11.9883430+08:00 0HL7LSFS188KP:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:11.9985672+08:00 0HL7LSFS188KP:00000003 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 44.5294ms (afa2e885)
+2017-09-07T19:32:12.0090069+08:00 0HL7LSFS188KP:00000003 [INF] Request finished in 64.079ms 200  (791a596a)
+2017-09-07T19:32:12.0303105+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:11 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (276d71dc)
+2017-09-07T19:32:13.0463937+08:00 0HL7LSFS188KL:00000002 [INF] Request finished in 26866.2525ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-09-07T19:32:14.6232635+08:00 0HL7LSFS188KJ:00000004 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44360/hubEventHistory   (ca22a1cb)
+2017-09-07T19:32:15.1182152+08:00 0HL7LSFS188KJ:00000004 [INF] Request finished in 45.6359ms 200 application/json (791a596a)
+2017-09-07T19:32:15.4744059+08:00 0HL7LSFS188KO:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-09-07T19:32:15.4812163+08:00 0HL7LSFS188KQ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44360/hubEventHistory?id=781aa958-1943-489e-b5f6-05dc5b2a8e66   (ca22a1cb)
+2017-09-07T19:32:15.4909087+08:00 0HL7LSFS188KK:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44360/favicon.ico   (ca22a1cb)
+2017-09-07T19:32:15.6118976+08:00 0HL7LSFS188KQ:00000004 [INF] 09/07/2017 19:32:15: Connection Id "781aa958-1943-489e-b5f6-05dc5b2a8e66": Socket opened. (2a7be2cb)
+2017-09-07T19:32:15.6576607+08:00 0HL7LSFS188KK:00000004 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\wwwroot\favicon.ico"' (27b0a520)
+2017-09-07T19:32:15.7522304+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:15.7778100+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:15.8181668+08:00 0HL7LSFS188KK:00000004 [INF] Request finished in 443.2486ms 200 image/x-icon (791a596a)
+2017-09-07T19:32:15.8250972+08:00  [DBG] Run at: 07/09/2017 19:32:15 +08:00 (93c4eabc)
+2017-09-07T19:32:15.8890282+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:15.9750322+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:16.0087207+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:16.0254762+08:00 0HL7LSFS188KN:00000004 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/302 application/json; charset=utf-8 345 (ca22a1cb)
+2017-09-07T19:32:16.0493496+08:00 0HL7LSFS188KN:00000004 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["302", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:16.0613447+08:00 0HL7LSFS188KN:00000004 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:16.0928086+08:00 0HL7LSFS188KN:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:16.1139877+08:00 0HL7LSFS188KN:00000004 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 71.5095ms (afa2e885)
+2017-09-07T19:32:16.1338811+08:00 0HL7LSFS188KN:00000004 [INF] Request finished in 148.1312ms 200  (791a596a)
+2017-09-07T19:32:16.1735167+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:15 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAy?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (f0e9e662)
+2017-09-07T19:32:19.0159208+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:19.0240804+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:19.0341230+08:00  [DBG] Run at: 07/09/2017 19:32:19 +08:00 (886657dc)
+2017-09-07T19:32:19.0454471+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:19.0548372+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:19.0634942+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:19.0791285+08:00 0HL7LSFS188KP:00000004 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 342 (ca22a1cb)
+2017-09-07T19:32:19.0873774+08:00 0HL7LSFS188KP:00000004 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:19.0953634+08:00 0HL7LSFS188KP:00000004 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:19.1084054+08:00 0HL7LSFS188KP:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:19.1192834+08:00 0HL7LSFS188KP:00000004 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 29.4339ms (afa2e885)
+2017-09-07T19:32:19.1327149+08:00 0HL7LSFS188KP:00000004 [INF] Request finished in 48.5465ms 200  (791a596a)
+2017-09-07T19:32:19.1482688+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:19 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (b92bf0d5)
+2017-09-07T19:32:22.0690219+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:22.0741313+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:22.0791815+08:00  [DBG] Run at: 07/09/2017 19:32:22 +08:00 (6e3e30c9)
+2017-09-07T19:32:22.0863716+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:22.1130505+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:22.1185720+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:22.1308051+08:00 0HL7LSFS188KJ:00000005 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/302 application/json; charset=utf-8 345 (ca22a1cb)
+2017-09-07T19:32:22.1367080+08:00 0HL7LSFS188KJ:00000005 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["302", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:22.1433695+08:00 0HL7LSFS188KJ:00000005 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:22.1545921+08:00 0HL7LSFS188KJ:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:22.1613575+08:00 0HL7LSFS188KJ:00000005 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 23.9495ms (afa2e885)
+2017-09-07T19:32:22.1926633+08:00 0HL7LSFS188KJ:00000005 [INF] Request finished in 36.3623ms 200  (791a596a)
+2017-09-07T19:32:22.2014913+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:22 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAy?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (88c0c770)
+2017-09-07T19:32:25.1257913+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:25.1309512+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:25.1393248+08:00  [DBG] Run at: 07/09/2017 19:32:25 +08:00 (a2c3e066)
+2017-09-07T19:32:25.1475231+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:25.1580454+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:25.1638878+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:25.1787169+08:00 0HL7LSFS188KK:00000005 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 341 (ca22a1cb)
+2017-09-07T19:32:25.1868046+08:00 0HL7LSFS188KK:00000005 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:25.1944673+08:00 0HL7LSFS188KK:00000005 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:25.4359999+08:00 0HL7LSFS188KK:00000005 [ERR] Failed executing DbCommand ("170"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TX_Event_History_TP_Events_eventId". The conflict occurred in database "MCSDBWeb02", table "dbo.TP_Events", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a4afc664-b76b-47f1-b0f8-330645584642
+Error Number:547,State:0,Class:16
+2017-09-07T19:32:25.6052480+08:00 0HL7LSFS188KK:00000005 [ERR] An exception occurred in the database while saving changes for context type '"MCS.Infrastructure.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_TX_Event_History_TP_Events_eventId\". The conflict occurred in database \"MCSDBWeb02\", table \"dbo.TP_Events\", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TX_Event_History_TP_Events_eventId". The conflict occurred in database "MCSDBWeb02", table "dbo.TP_Events", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at MCS.Web.Controllers.MCSController.<Put>d__11.MoveNext() in E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\Controllers\MCSController.cs:line 128
+2017-09-07T19:32:25.6132651+08:00 0HL7LSFS188KK:00000005 [FTL] DBUpdate Event - Error : An error occurred while updating the entries. See the inner exception for details. (e127eb06)
+2017-09-07T19:32:25.6202637+08:00 0HL7LSFS188KK:00000005 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 434.3879ms (afa2e885)
+2017-09-07T19:32:25.6268878+08:00 0HL7LSFS188KK:00000005 [INF] Request finished in 447.3059ms 200  (791a596a)
+2017-09-07T19:32:25.6622142+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:25 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (e3e71da0)
+2017-09-07T19:32:26.5605566+08:00 0HL7LSFS188KN:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44360/eventhistory   (ca22a1cb)
+2017-09-07T19:32:26.5733859+08:00 0HL7LSFS188KN:00000005 [INF] Executing action method "MCS.Web.Controllers.HomeController.Index (MCS.Web)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:26.5805294+08:00 0HL7LSFS188KN:00000005 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-09-07T19:32:26.5902692+08:00 0HL7LSFS188KN:00000005 [INF] Executed action "MCS.Web.Controllers.HomeController.Index (MCS.Web)" in 14.3379ms (afa2e885)
+2017-09-07T19:32:26.6228237+08:00 0HL7LSFS188KN:00000005 [INF] Request finished in 35.1101ms 200 text/html; charset=utf-8 (791a596a)
+2017-09-07T19:32:26.6912988+08:00 0HL7LSFS188KP:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/main-client.js?v=CMLrVzCKBjG1xr-DEEv3NxDGOXwAQrGDbC6GeAV2FF4   (ca22a1cb)
+2017-09-07T19:32:26.6966418+08:00 0HL7LSFS188KQ:00000004 [INF] 09/07/2017 19:32:26: Connection Id "781aa958-1943-489e-b5f6-05dc5b2a8e66": Socket closed. (aa1cc52a)
+2017-09-07T19:32:26.7115732+08:00 0HL7LSFS188KQ:00000004 [INF] Request finished in 11588.81ms 101  (791a596a)
+2017-09-07T19:32:26.9838234+08:00 0HL7LSFS188KP:00000005 [INF] Request finished in 330.9325ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-09-07T19:32:28.1850555+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:28.1929341+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:28.2018659+08:00  [DBG] Run at: 07/09/2017 19:32:28 +08:00 (11f709df)
+2017-09-07T19:32:28.2152817+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:28.2257184+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:28.2374324+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:28.2492194+08:00 0HL7LSFS188KJ:00000006 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 343 (ca22a1cb)
+2017-09-07T19:32:28.2584267+08:00 0HL7LSFS188KJ:00000006 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:28.2715857+08:00 0HL7LSFS188KJ:00000006 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:28.2882227+08:00 0HL7LSFS188KJ:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:28.2999395+08:00 0HL7LSFS188KJ:00000006 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 39.413ms (afa2e885)
+2017-09-07T19:32:28.3281347+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:28 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (79beae8a)
+2017-09-07T19:32:28.3326984+08:00 0HL7LSFS188KJ:00000006 [INF] Request finished in 59.2401ms 200  (791a596a)
+2017-09-07T19:32:29.6683741+08:00 0HL7LSFS188KK:00000006 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44360/hubEventHistory   (ca22a1cb)
+2017-09-07T19:32:29.6801173+08:00 0HL7LSFS188KK:00000006 [INF] Request finished in 12.3192ms 200 application/json (791a596a)
+2017-09-07T19:32:29.8148383+08:00 0HL7LSFS188KN:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44360/api/mcs/eventhistory/all/301   (ca22a1cb)
+2017-09-07T19:32:29.8318058+08:00 0HL7LSFS188KN:00000006 [INF] Executing action method "MCS.Web.Controllers.MCSController.GetEventHistory (MCS.Web)" with arguments (["301"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:29.8503877+08:00 0HL7LSFS188KN:00000006 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:30.0173230+08:00 0HL7LSFS188KP:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44360/dist/__webpack_hmr   (ca22a1cb)
+2017-09-07T19:32:30.0334941+08:00 0HL7LSFS188KJ:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44360/hubEventHistory?id=b42ebe57-b957-4f81-bd26-027bd6f5c44a   (ca22a1cb)
+2017-09-07T19:32:30.0822882+08:00 0HL7LSFS188KJ:00000007 [INF] 09/07/2017 19:32:30: Connection Id "b42ebe57-b957-4f81-bd26-027bd6f5c44a": Socket opened. (2a7be2cb)
+2017-09-07T19:32:30.1645656+08:00 0HL7LSFS188KO:00000004 [INF] Request finished in 15167.5892ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-09-07T19:32:30.2292712+08:00 0HL7LSFS188KN:00000006 [INF] Executed DbCommand ("307"ms) [Parameters=["@p0='?', @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""exec sp_GetEventHistory @p0, '@p1'" (0723d8ff)
+2017-09-07T19:32:30.3804867+08:00 0HL7LSFS188KN:00000006 [INF] Executing JsonResult, writing value "System.Collections.Generic.List`1[MCS.Web.ViewModels.EventHistoryViewModel]". (7bb75e80)
+2017-09-07T19:32:30.4526768+08:00 0HL7LSFS188KN:00000006 [INF] Executed action "MCS.Web.Controllers.MCSController.GetEventHistory (MCS.Web)" in 615.2394ms (afa2e885)
+2017-09-07T19:32:30.4676050+08:00 0HL7LSFS188KN:00000006 [INF] Request finished in 651.8587ms 200 application/json; charset=utf-8 (791a596a)
+2017-09-07T19:32:31.2459642+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:31.2518671+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:31.2577332+08:00  [DBG] Run at: 07/09/2017 19:32:31 +08:00 (765784b4)
+2017-09-07T19:32:31.2660066+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:31.2733273+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:31.2795696+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:31.2961988+08:00 0HL7LSFS188KK:00000007 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/302 application/json; charset=utf-8 344 (ca22a1cb)
+2017-09-07T19:32:31.3066887+08:00 0HL7LSFS188KK:00000007 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["302", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:31.3134620+08:00 0HL7LSFS188KK:00000007 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:31.3239933+08:00 0HL7LSFS188KK:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:31.3306300+08:00 0HL7LSFS188KK:00000007 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 28.2449ms (afa2e885)
+2017-09-07T19:32:31.3402490+08:00 0HL7LSFS188KK:00000007 [INF] Request finished in 41.5901ms 200  (791a596a)
+2017-09-07T19:32:31.3733241+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:31 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAy?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (04d3305f)
+2017-09-07T19:32:34.2859058+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:34.2920369+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:34.2978315+08:00  [DBG] Run at: 07/09/2017 19:32:34 +08:00 (ab803157)
+2017-09-07T19:32:34.3057599+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:34.3127849+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:34.3182428+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:34.3295463+08:00 0HL7LSFS188KN:00000007 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 343 (ca22a1cb)
+2017-09-07T19:32:34.3349755+08:00 0HL7LSFS188KN:00000007 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:34.3403607+08:00 0HL7LSFS188KN:00000007 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:34.3464132+08:00 0HL7LSFS188KN:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:34.3519658+08:00 0HL7LSFS188KN:00000007 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 17.1743ms (afa2e885)
+2017-09-07T19:32:34.3584461+08:00 0HL7LSFS188KN:00000007 [INF] Request finished in 27.68ms 200  (791a596a)
+2017-09-07T19:32:34.3764893+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:34 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (9abbe68f)
+2017-09-07T19:32:37.3240813+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:37.3312430+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:37.3373128+08:00  [DBG] Run at: 07/09/2017 19:32:37 +08:00 (648779c2)
+2017-09-07T19:32:37.3476068+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:37.3556903+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:37.3609572+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:37.3716401+08:00 0HL7LSFS188KK:00000008 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 344 (ca22a1cb)
+2017-09-07T19:32:37.3772907+08:00 0HL7LSFS188KK:00000008 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:37.3826649+08:00 0HL7LSFS188KK:00000008 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:37.3895404+08:00 0HL7LSFS188KK:00000008 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:37.3950414+08:00 0HL7LSFS188KK:00000008 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 18.188ms (afa2e885)
+2017-09-07T19:32:37.4009331+08:00 0HL7LSFS188KK:00000008 [INF] Request finished in 28.1462ms 200  (791a596a)
+2017-09-07T19:32:37.4190162+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:37 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (9df2f898)
+2017-09-07T19:32:40.3664783+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:40.3725126+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:40.3779021+08:00  [DBG] Run at: 07/09/2017 19:32:40 +08:00 (86f2abd1)
+2017-09-07T19:32:40.3859627+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:40.3934067+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:40.3984790+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:40.4094781+08:00 0HL7LSFS188KN:00000008 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 340 (ca22a1cb)
+2017-09-07T19:32:40.4149340+08:00 0HL7LSFS188KN:00000008 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:40.4203169+08:00 0HL7LSFS188KN:00000008 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:40.4755807+08:00 0HL7LSFS188KN:00000008 [ERR] Failed executing DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TX_Event_History_TP_Events_eventId". The conflict occurred in database "MCSDBWeb02", table "dbo.TP_Events", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a4afc664-b76b-47f1-b0f8-330645584642
+Error Number:547,State:0,Class:16
+2017-09-07T19:32:40.5984817+08:00 0HL7LSFS188KN:00000008 [ERR] An exception occurred in the database while saving changes for context type '"MCS.Infrastructure.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_TX_Event_History_TP_Events_eventId\". The conflict occurred in database \"MCSDBWeb02\", table \"dbo.TP_Events\", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TX_Event_History_TP_Events_eventId". The conflict occurred in database "MCSDBWeb02", table "dbo.TP_Events", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at MCS.Web.Controllers.MCSController.<Put>d__11.MoveNext() in E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\Controllers\MCSController.cs:line 128
+2017-09-07T19:32:40.6061393+08:00 0HL7LSFS188KN:00000008 [FTL] DBUpdate Event - Error : An error occurred while updating the entries. See the inner exception for details. (e127eb06)
+2017-09-07T19:32:40.6131968+08:00 0HL7LSFS188KN:00000008 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 196.4034ms (afa2e885)
+2017-09-07T19:32:40.6288126+08:00 0HL7LSFS188KN:00000008 [INF] Request finished in 209.1549ms 200  (791a596a)
+2017-09-07T19:32:40.6699898+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:40 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (731c8a25)
+2017-09-07T19:32:43.4049229+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:43.4105786+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:43.4164277+08:00  [DBG] Run at: 07/09/2017 19:32:43 +08:00 (160c5c6e)
+2017-09-07T19:32:43.4249719+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:43.4316575+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:43.4369236+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:43.4489171+08:00 0HL7LSFS188KK:00000009 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/302 application/json; charset=utf-8 342 (ca22a1cb)
+2017-09-07T19:32:43.4552242+08:00 0HL7LSFS188KK:00000009 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["302", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:43.4611179+08:00 0HL7LSFS188KK:00000009 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:43.5123519+08:00 0HL7LSFS188KK:00000009 [ERR] Failed executing DbCommand ("1"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TX_Event_History_TP_Events_eventId". The conflict occurred in database "MCSDBWeb02", table "dbo.TP_Events", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a4afc664-b76b-47f1-b0f8-330645584642
+Error Number:547,State:0,Class:16
+2017-09-07T19:32:43.6511558+08:00 0HL7LSFS188KK:00000009 [ERR] An exception occurred in the database while saving changes for context type '"MCS.Infrastructure.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_TX_Event_History_TP_Events_eventId\". The conflict occurred in database \"MCSDBWeb02\", table \"dbo.TP_Events\", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TX_Event_History_TP_Events_eventId". The conflict occurred in database "MCSDBWeb02", table "dbo.TP_Events", column 'eventId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at MCS.Web.Controllers.MCSController.<Put>d__11.MoveNext() in E:\MCS\MCS.Web.NetCore2.0\MCS.Web\MCS.Web\Controllers\MCSController.cs:line 128
+2017-09-07T19:32:43.6591114+08:00 0HL7LSFS188KK:00000009 [FTL] DBUpdate Event - Error : An error occurred while updating the entries. See the inner exception for details. (e127eb06)
+2017-09-07T19:32:43.6650774+08:00 0HL7LSFS188KK:00000009 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 209.8228ms (afa2e885)
+2017-09-07T19:32:43.6957204+08:00 0HL7LSFS188KK:00000009 [INF] Request finished in 222.4645ms 200  (791a596a)
+2017-09-07T19:32:43.7238435+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:43 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAy?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (251c70ed)
+2017-09-07T19:32:46.4441721+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:46.4496755+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:46.4563670+08:00  [DBG] Run at: 07/09/2017 19:32:46 +08:00 (966febd6)
+2017-09-07T19:32:46.4655645+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:46.4760339+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:46.4815853+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:46.4964878+08:00 0HL7LSFS188KN:00000009 [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/301 application/json; charset=utf-8 345 (ca22a1cb)
+2017-09-07T19:32:46.5027096+08:00 0HL7LSFS188KN:00000009 [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["301", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:46.5080945+08:00 0HL7LSFS188KN:00000009 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:46.5165617+08:00 0HL7LSFS188KN:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:46.5273515+08:00 0HL7LSFS188KN:00000009 [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 20.4571ms (afa2e885)
+2017-09-07T19:32:46.5400715+08:00 0HL7LSFS188KN:00000009 [INF] Request finished in 36.2012ms 200  (791a596a)
+2017-09-07T19:32:46.5603079+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:46 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAx?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (69b18fb5)
+2017-09-07T19:32:49.4883167+08:00  [DBG] It is time! Creating scope... (562400e1)
+2017-09-07T19:32:49.4938706+08:00  [INF] Calling Run()... (1f364485)
+2017-09-07T19:32:49.4992799+08:00  [DBG] Run at: 07/09/2017 19:32:49 +08:00 (c4ffcc03)
+2017-09-07T19:32:49.5070417+08:00  [FTL] UpdateEventHistory - Start (f5f0b958)
+2017-09-07T19:32:49.5137853+08:00  [INF] Done. (46360b67)
+2017-09-07T19:32:49.5193123+08:00  [DBG] Sleeping for 00:00:03... (d065748c)
+2017-09-07T19:32:49.5308661+08:00 0HL7LSFS188KK:0000000A [INF] Request starting HTTP/1.1 PUT http://localhost:44360/api/mcs/eventhistory/302 application/json; charset=utf-8 342 (ca22a1cb)
+2017-09-07T19:32:49.5382631+08:00 0HL7LSFS188KK:0000000A [INF] Executing action method "MCS.Web.Controllers.MCSController.Put (MCS.Web)" with arguments (["302", "MCS.Web.ViewModels.EventHistoryViewModel"]) - ModelState is Valid (ba7f4ac2)
+2017-09-07T19:32:49.5448725+08:00 0HL7LSFS188KK:0000000A [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2017-09-07T19:32:49.5538615+08:00 0HL7LSFS188KK:0000000A [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TX_Event_History] ([historyId], [deviceId], [eventDateTime], [eventId], [eventState], [stationId], [updateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2017-09-07T19:32:49.5603292+08:00 0HL7LSFS188KK:0000000A [INF] Executed action "MCS.Web.Controllers.MCSController.Put (MCS.Web)" in 22.7206ms (afa2e885)
+2017-09-07T19:32:49.5716892+08:00 0HL7LSFS188KK:0000000A [INF] Request finished in 36.0003ms 200  (791a596a)
+2017-09-07T19:32:49.6229315+08:00  [FTL] StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.NoWriteNoSeekStreamContent, Headers:
+{
+  Date: Thu, 07 Sep 2017 11:32:49 GMT
+  Server: Kestrel
+  X-SourceFiles: =?UTF-8?B?RTpcTUNTXE1DUy5XZWIuTmV0Q29yZTIuMFxNQ1MuV2ViXE1DUy5XZWJcYXBpXG1jc1xldmVudGhpc3RvcnlcMzAy?=
+  X-Powered-By: ASP.NET
+  Content-Length: 0
+} (298e8380)
+2017-09-07T19:32:52.0386995+08:00 0HL7LSFS188KJ:00000007 [ERR] 09/07/2017 19:32:51: ConnectionId "b42ebe57-b957-4f81-bd26-027bd6f5c44a": Failed disposing connection. (bb9aff30)
+System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.ConnectionResetException: Error -4077 ECONNRESET connection reset by peer ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4077 ECONNRESET connection reset by peer
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.PipeCompletion.ThrowFailed()
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.Pipe.GetResult(ReadResult& result)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.Pipe.Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.IReadableBufferAwaiter.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.System.IO.Pipelines.ReadableBufferAwaitable.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.MessageBody.<ReadAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.FrameRequestStream.<ReadAsyncInternal>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.ManagedWebSocket.<EnsureBufferContainsAsync>d__70.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.ManagedWebSocket.<ReceiveAsyncPrivate>d__61.MoveNext()
+   at System.Net.WebSockets.ManagedWebSocket.<ReceiveAsyncPrivate>d__61.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.Internal.Transports.WebSocketsTransport.<StartReceiving>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.Internal.Transports.WebSocketsTransport.<ProcessSocketAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.Internal.Transports.WebSocketsTransport.<ProcessRequestAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.DefaultConnectionContext.<WaitOnTasks>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.DefaultConnectionContext.<DisposeAsync>d__55.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Sockets.ConnectionManager.<DisposeAndRemoveAsync>d__14.MoveNext()
+2017-09-07T19:32:52.0466700+08:00 0HL7LSFS188KJ:00000007 [INF] Request finished in 22085.1212ms 101  (791a596a)

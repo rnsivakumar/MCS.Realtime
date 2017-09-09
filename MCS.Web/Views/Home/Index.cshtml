@@ -1,0 +1,122 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<quick-app>
+    <!--
+           Anything inside the <my-app> component content-area will be automatically
+           replaced with the "template" (associated with the <my-app> component) once
+           the application is bootstrapped. The upside of this is that it just happens
+           automatically. The downside of this is that the content instantaneously
+           disappears once the application has been bootstrapped.
+       -->
+
+
+    <div id="pre-bootstrap">
+        <div class="messaging">
+            <h1>
+                App is Loading...
+            </h1>
+            <div class="cs-loader">
+                <div class="cs-loader-inner">
+                    <label>&#9679</label>
+                    <label>&#9679</label>
+                    <label>&#9679</label>
+                    <label>&#9679</label>
+                    <label>&#9679</label>
+                    <label>&#9679</label>
+                </div>
+            </div>
+            <p>
+                MONITORING AND CONTROL SERVER - <span class="appName" style="font-style:italic">THOMSON LINE</span><span class="appName"></span> &copy;
+            </p>
+
+        </div>
+    </div>
+</quick-app>
+
+<div class="room"></div>
+
+<script src="~/dist/vendor.js" asp-append-version="true"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/signalr-client/dist//browser/signalr-client.js"></script>
+<script src="~/lib/signalr-client/dist//browser/signalr-msgpackprotocol.js"></script>
+<script src="~/lib/signalr-client/dist/src/index.js"></script>
+@*<script src="~/lib/signalr/jquery.signalR.min.js"></script>
+<script src="/signalr/hubs"></script>*@
+@*<script src="/signalr/js"></script>*@
+@section scripts {
+    <script src="~/dist/main-client.js" asp-append-version="true"></script>
+
+    @*<script>
+        var connection = $.hubConnection(), hub = connection.createHubProxy("hubEventHistory");
+        var join = function (msg) {
+            $('<p>').text(msg).appendTo('.room');
+        }
+
+        hub.on('join', join);
+        connection.start(function () {
+            hub.invoke('join');
+        })
+    </script>*@
+    <script>
+        //let transportType = signalR.TransportType[getParameterByName('transport')] || signalR.TransportType.WebSockets;
+        //let logger = new signalR.ConsoleLogger(signalR.LogLevel.Information);
+        //let http = new signalR.HttpConnection(`https://${document.location.host}/hubEventHistory`, { transport: transportType, logger: logger });
+        //let connection = new signalR.HubConnection(http, logger);
+
+        //connection.start().catch(err => console.log(err));
+
+        //connection.onClosed = e => {
+        //    if (e) {
+        //        appendLine('Connection closed with error: ' + e, 'red');
+        //    }
+        //    else {
+        //        appendLine('Disconnected', 'green');
+        //    }
+        //};
+
+        //connection.on('SetUsersOnline', usersOnline => {
+        //    usersOnline.forEach(user => addUserOnline(user));
+        //});
+
+        //connection.on('UsersJoined', users => {
+        //    users.forEach(user => {
+        //        appendLine('User ' + user.Name + ' joined the chat');
+        //        addUserOnline(user);
+        //    });
+        //});
+
+        //connection.on('UsersLeft', users => {
+        //    users.forEach(user => {
+        //        appendLine('User ' + user.Name + ' left the chat');
+        //        document.getElementById(user.ConnectionId).outerHTML = '';
+        //    });
+        //});
+
+        //connection.on('Send', (userName, message) => {
+        //    var nameElement = document.createElement('b');
+        //    nameElement.innerText = userName + ':';
+
+        //    var msgElement = document.createElement('span');
+        //    msgElement.innerText = ' ' + message;
+
+        //    var child = document.createElement('li');
+        //    child.appendChild(nameElement);
+        //    child.appendChild(msgElement);
+        //    document.getElementById('messages').appendChild(child);
+        //});
+
+        //function getParameterByName(name, url) {
+        //    if (!url) {
+        //        url = window.location.href;
+        //    }
+        //    name = name.replace(/[\[\]]/g, "\\$&");
+        //    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        //        results = regex.exec(url);
+        //    if (!results) return null;
+        //    if (!results[2]) return '';
+        //    return decodeURIComponent(results[2].replace(/\+/g, " "));
+        //};
+    </script>
+}
